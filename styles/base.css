@@ -116,7 +116,7 @@ nav a:hover{
 .card  p {
 text-align: center;
 }
-footer {
+/*footer {
     margin-top: 20px;
     height: 200px;
     display: flex;
@@ -125,49 +125,66 @@ footer {
     align-items: center;
     background-color: rgb(12, 54, 88);
     font-weight: bold;
+}*/
+footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    background-color: rgb(12, 54, 88);
+    justify-content: center;
+    text-align: center;
+    
+
 }
 
 #copy{
     
+grid-column: 1/3;
     
-    margin-bottom: 0px;
     background-color: rgb(12, 54, 88);
     color:rgb(248, 246, 246);
     font-weight: bold;
+    
+    
     
 }
 #name{
-
-    margin: 0px;
+    grid-column: 1/3;
     background-color: rgb(12, 54, 88);
     color:rgb(248, 246, 246);
     font-weight: bold;
+    padding: 0px;
+    margin: 0px;
 
 }
-footer h4{
+#country{
     
     
-    
-    margin: 0px;
-    background-color: rgb(12, 54, 88);
+    grid-column: 1/2;
+     background-color: rgb(12, 54, 88);
     color:rgb(248, 246, 246);
-    font-weight: bolder;
+    font-weight: bold;
 
     
 }
 footer img {
-    width: 2rem;
+    grid-column: 2/3;
+    width: 5rem;
+    background-color: rgb(12, 54, 88);
+
 
     
 }
 #lastModified{
     
-    
+    grid-column: 1/3;
     color:rgb(250, 250, 250);
     font-weight:bold;
     font-size: 12px;
-letter-spacing: 2px;
-
+    letter-spacing: 2px;
+    background-color: rgb(12, 54, 88);
+    padding: 0px;
+    margin: 0px;
 
 }
 
