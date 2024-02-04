@@ -11,28 +11,125 @@ body {
 
 header{
     display: flex;
-    justify-content:center; 
+    justify-content:space-between; 
     align-items: center;
-    text-align: center;
-    background-color: rgb(12, 54, 88);
+    background-color: rgb(20, 74, 118);
     color:rgb(247, 246, 246);
-    font-size: 13px;
-    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo > img{
+    width: 60px;
+    margin-right: 7px;
+    
+}
+
+.logo h1{
+    font-size: 1.1rem;
+    margin: 0 0 0.3rem 0;
+}
+.logo p {
+    font-size: 0.7rem;
+    margin: 0;
+}
+#menu{
+    width: 30px;
+    float: right;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+/*Nav*/
+
+/*Hamburger Button*/
+/*
+#menu{
+    font-size: 1.5rem;
+    border: 2px solid rgb(12, 54, 88);;
+    padding: 3px 7px 6px ;
+    background-color: rgb(246, 247, 248);
+    color: rgb(15, 15, 15);
+    position:absolute;
+    top: 1rem;
+    right: 0.5rem;
+    
     }
-header img{
-    width: 7rem;
-    margin-right: 10px;
-    padding: 10px;
+*/
+
+#menu::before {
+	content: "☰";/*Menu Icon */
 }
 
-h1{
-    font-size: 40px;
-    padding-left: 15px;
+#menu.open::before {
+	content: "❎";/*Menu Icon when cancelled*/
+}
+.navigation{
+   /* position: relative;
+    top: 0;
+    bottom: 0;
+    left: -100vw;
+    width: 50vw;
+    z-index: 10;
+    color: #ddd;
+    background-color: #0624bd;
+    transition: transform 0.2s ease-out;*/
+    
+    
+
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: rgb(12, 54, 88);
+    color: #fff;
+}
+
+.navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.navigation a:hover{
+    background-color: #faf3f3;
+    font-weight: 700;
+    width: 100%;
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+.navigation > .active {
+    color: rgb(247, 247, 5);
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.show-menu {
+    transform: translateX(100vw);
+  }
+.open a {
+	display: block;
+}
+
+/* just a wayfinding symbol for the user */
+
+.active::before{
+    content: "|";
+    
+}
+.active::after{
+    content: "|";
+    
 }
 
 
+/* Center the main content */
 main {
-    place-items: center; /* Center the main content */
+    place-items: center; 
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -159,71 +256,6 @@ footer img {
 /*Small View Navigation ----------------------Mobile View*/
 
 
-/*Hamburger Button*/
-
-#menu{
-    font-size: 1.5rem;
-    border: 2px solid rgb(12, 54, 88);;
-    padding: 3px 7px 6px ;
-    background-color: rgb(12, 54, 88);
-    color: rgb(248, 246, 246);
-    position:absolute;
-    top: 0.2rem;
-    right: 0.5rem;
-}
-
-
-#menu::before {
-	content: "☰";/*Menu Icon */
-}
-
-#menu.open::before {
-	content: "❎";/*Menu Icon when cancelled*/
-}
-.navigation{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    background-color: rgb(12, 54, 88);
-    color: #fff;
-}
-
-.navigation a {
-    display: none;
-    padding: 1rem;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-
-}
-
-.navigation a:hover{
-    background-color: #faf3f3;
-    font-weight: 700; 
-    color: rgb(15, 15, 15);
-    font-weight: bold;
-    
-}
-.navigation > .active {
-    color: rgb(247, 247, 5);
-}
-
-/* when the button is clicked - the open class is toggled (added/removed) */
-.open a {
-	display: block;
-}
-
-/* just a wayfinding symbol for the user */
-
-.active::before{
-    content: "|";
-    
-}
-.active::after{
-    content: "|";
-    
-}
 
 
 
