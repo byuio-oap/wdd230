@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/main.css">
-
-    <title>Document</title>
+    <meta name="author" content="Orlando Ancelmo Pinelo" >
+    <meta name="description" content="Chamber of Commerce Website for the Municipality of Quetzaltenango-Xela">
+    <title>Chamber of Commerce, Xela</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
+    <!--Favicon Logo-->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Facebook Meta Tags-->
+    <meta property="og:title" content="WDD230- Web Fronted Chamber of Commerce">
+    <meta property="og:type" content="website" >
+    <meta property="og:image" content="https://www.shutterstock.com/es/image-photo/walking-through-quetzaltenango-guatemala-xela-1869936772">
+    <meta property="og:url" content="https://byuio-oap.github.io/wdd230/">
+    <!---StyleSheets-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="images/logo.png">
+            <img src="images/logo.png" alt="Chamber Logo">
             <label class="logotext">Chamber of Commerce</label>
           </div> 
         <nav>
-            <input type="checkbox" id="check""> 
+            <input type="checkbox" id="check"> 
             <label for="check" class="checkbtn">
                 <i class="fa fa-bars"></i>
             </label>
@@ -27,70 +42,117 @@
                 <li><a href="">Directory</a></li>
                 <li><a href="">Join us</a></li>
             </ul>
-            
-                
-            <main>
+        </nav>
+    </header>          
+            <main class="content-container">
                 <!-- Hero Image Section -->
                 <section class="hero-image">
                     <!-- Placeholder for hero image -->
                     <img src="images/xela2.jpg" alt="Hero Image">
+                    <h2>.</h2>
                 </section>
         
                 <!-- Call to Action Section -->
                 <section class="action">
-                    <p>Join the Chamber of Commerce and...</p>
+                    <h2>Join the Chamber of Commerce and...</h2>
                     <!-- Add your call to action link here -->
-                    <a href="#">Join Now</a>
+                    <a href="#">Sign Up</a>
                 </section>
         
                 <!-- Current Events Section -->
                 <section class="currentevents">
-                    <h2>Current Events</h2>
+                    
                     <!-- Placeholder for current events -->
-                    <p>Event 1 description</p>
-                    <p>Event 2 description</p>
                     <!-- Add more events as needed -->
+
+                    <div class="event-card">
+                        <img src="event1.jpg" alt="Event 1" class="event-image">
+                        <div class="event-content">
+                            <div class="event-heading">Event 1</div>
+                            <div class="event-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <img src="event2.jpg" alt="Event 2" class="event-image">
+                        <div class="event-content">
+                            <div class="event-heading">Event 2</div>
+                            <div class="event-description">
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                 </section>
         
                 <!-- Weather Card Section -->
                 <section class="weather">
                     <h2>Weather</h2>
                     <!-- Placeholder for weather information -->
-                    <p>Current weather: Sunny</p>
+                    <h3>Current weather: Sunny</h3>
                     <p>Temperature: 25°C</p>
                     <!-- Add more weather details as needed -->
                 </section>
         
                 <!-- Company Spotlights Section -->
-                <section class="spotllight">
-                    <h2>Company Spotlights</h2>
-                    <!-- Placeholder for company spotlights -->
-                    <p>Company 1: Spotlight description</p>
-                    <p>Company 2: Spotlight description</p>
-                    <!-- Add more spotlights as needed -->
+                <section class="spotlight-container">
+                    <div class="spotlight">
+                        <img src="spotlight1.jpg" alt="Spotlight 1" class="spotlight-image">
+                        <div class="spotlight-content">
+                            <div class="spotlight-heading">Spotlight 1</div>
+                            <div class="spotlight-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <a href="#" class="spotlight-button">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="spotlight">
+                        <img src="spotlight2.jpg" alt="Spotlight 2" class="spotlight-image">
+                        <div class="spotlight-content">
+                            <div class="spotlight-heading">Spotlight 2</div>
+                            <div class="spotlight-description">
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <a href="#" class="spotlight-button">Explore</a>
+                        </div>
+                    </div>
+                    
+                    <div class="spotlight">
+                        <img src="spotlight3.jpg" alt="Spotlight 3" class="spotlight-image">
+                        <div class="spotlight-content">
+                            <div class="spotlight-heading">Spotlight 3</div>
+                            <div class="spotlight-description">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </div>
+                            <a href="#" class="spotlight-button">Get Started</a>
+                        </div>
+                    </div>
+                    
                 </section>
             </main>
         
             <!-- Footer Section -->
             <footer>
-                <!-- Contact Information -->
-                <p>Contact: your@email.com</p>
-        
-                <!-- Additional Development Information -->
-                <p>Developed by: Your Full Name</p>
-                <p>Project for WDD 230</p>
-                <p>Last Modification Date: <span id="lastModified"></span></p>
-        
-                <!-- Add your JavaScript script tag for dynamic date -->
-                <script>
-                    document.getElementById('lastModified').innerHTML = new Date(document.lastModified).toLocaleDateString();
-                </script>
+                <!-- footer content goes here -->
+                <p id="copy">&copy; <span id="currentYear"></span> </p>
+                <p id="name">Orlando Ancelmo Pinelo</p>
+                <p id="country">Chamber of Commerce Site -Wdd230</p>
+                <p id="lastModified"></p>
+                
             </footer>
         
-        </nav>
+            <!-- JavaScript code to dynamically populate the current year and last modified date -->
+            
+            
+            <script src="scripts/getdates.js"></script>
+        
+        
 
 
-    </header>
+    
     
 </body>
 </html>
