@@ -1,11 +1,18 @@
 
 @media screen and (max-width: 856px){
+  .container{
+    height: 20px;
+  }
     .logotext{
         font-size: 18px;
         width: 150%;
     }
+    .top_bar_info{
+      display: none;
+    }
     .checkbtn{
         display: block;
+        margin-right: 20px;
     }
     nav{
       width: 20%;
@@ -14,26 +21,36 @@
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: rgb(20, 74, 118);   
-        top: 80px;
+        color: white;
+        background-color: rgb(13, 67, 115);  
+        top: 103px;
         left: -100%;
         text-align: center;    
         transition: all .5s;
         border-top: 1px solid white;
+        
     }
     nav ul li {
         display: block;
         margin: 50px;
         line-height: 30px;
+        
     }
 
    nav ul li a{
     font-size: 20px;
+    color: white;
+   }
+   nav ul li:hover{
+    background-color: white;
+    color: black;
+   }
+   nav ul li a:hover{
+    color: black;
    }
    .action a:hover,a.active{
     background: none;
-    color:black;
-    background-color: greenyellow;
+    color:rgb(20, 19, 19);
    }
    #check:checked ~ul{
     left: 0;
@@ -42,6 +59,11 @@
     display:grid;
     grid-template-columns: auto auto auto;
   }
+  .hero{
+    font-size: 10px;
+    width: 100%;
+  }
+
   .hero-image{
     grid-row: 1/2;
     grid-column: 1/4;
@@ -68,13 +90,17 @@
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
   }
+
 footer{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
+  bottom: unset;
 }
+.col{
+  flex-basis: 100%;
+}
+.col:nth-child(2), .col:nth-child(3){
+  flex-basis: 100%;
+}
+
 
 
 }

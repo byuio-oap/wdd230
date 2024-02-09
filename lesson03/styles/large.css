@@ -7,7 +7,12 @@
     max-width: 64rem;
     margin: auto;
   }
-
+  .top_bar_info{
+    display: none;
+  }
+  .container{
+    height: 10px;
+  }
   .cardcontainer {
     padding: 1.3rem 2%;
     background-color: #fff;
