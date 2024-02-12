@@ -141,4 +141,16 @@
     bottom: unset;
   }
 }
+
+@media screen and (max-width: 756px){
+  .weather-container{
+      
+    
+    margin-left: 1rem;
+    margin-top: 1.7rem;
+    font-size: 10px;
+  
+  
+  }
+}
  
