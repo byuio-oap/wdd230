@@ -213,14 +213,25 @@
      
 }
 /*-------------Weather--------------------*/
-/*.weather-container{
+.weather-container{
   grid-column: 1/2;
-  grid-row: 1/2;
+
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: rgb(15, 67, 115);
-} 
-.weather-container .space{
+  margin-left: 6rem;
+  margin-top: 1.2rem;
+  font-size: small;
+
+
+}
+.weather-details{
+margin-right: 1rem;
+}
+.fa-sun-o{
+  color: rgb(255, 60, 0);
+}
+
+/*.weather-container .space{
   width: 100%;
 }
 
@@ -354,10 +365,10 @@
   background:rgb(15, 67, 115);
 }
 #slides .slide_3 {
-  background: #0d7496;
+  background: #007EA7;
 }
 #slides .slide_4 {
-  background: #023c53;
+  background: #00A8E8;
 }
 #controls {
   margin: -180px 0 0 0;

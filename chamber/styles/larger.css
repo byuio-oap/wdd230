@@ -10,6 +10,17 @@
     .top_bar_info{
       display: none;
     }
+
+
+    .weather-container{
+      
+    
+      margin-left: 2rem;
+      margin-top: 1.7rem;
+      font-size: 10px;
+    
+    
+    }
     .checkbtn{
         display: block;
         margin-right: 20px;
