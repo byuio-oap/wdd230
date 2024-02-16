@@ -51,6 +51,37 @@ main h2{
     
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    
+}        
+.herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#ffffff59, #4d5b9700);
+   border: 1px solid rgba(0,0,0,.75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+    /* Buenas */
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family:"Great Vibes", serif;
+}
+
 
 .card {
     border: 1px solid #ddd;

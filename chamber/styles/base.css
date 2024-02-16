@@ -224,9 +224,12 @@
 
 
 }
-.weather-details{
+.weather-details-today{
 margin-right: 1rem;
 }
+.weather-details-tommorow{
+  margin-right: 1rem;
+  }
 .fa-sun-o{
   color: rgb(255, 60, 0);
 }
