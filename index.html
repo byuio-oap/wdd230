@@ -17,9 +17,9 @@
     <meta property="og:image" content="https://www.shutterstock.com/es/image-photo/walking-through-quetzaltenango-guatemala-xela-1869936772">
     <meta property="og:url" content="https://byuio-oap.github.io/wdd230/">
     <!--CSS stylesheets-->
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css" defer>
+    <link rel="stylesheet" href="styles/base.css" defer>
+    <link rel="stylesheet" href="styles/larger.css" defer>
 
 
 </head>
@@ -27,13 +27,18 @@
 
     <header>
         <!-- Header content goes here -->
-        <img src="images/profile-image.jpeg" alt="Orlando Ancelmo Pinelo">
+       <!--- <img src="images/profile-image2.webp" alt="Orlando Ancelmo Pinelo" width="418" height="515">-->
+        <picture>
+            <source srcset="images/profile-samll.webp" media="(max-width: 400px )">
+            <source srcset="images/profile-medium.webp" media="(max-width: 1000px )">
+            <img src="images/profile-large.webp" alt="Quetzaltenango's Temple" width="418" height="515">
+            </picture>
         <h1>Orlando Ancelmo Pinelo</h1>
         
     </header>
     
     <!--Hamburger Button-->
-    <button id="menu"></button>                                 
+    <button id="menu" name="Menu Buton" title="Menu" aria-label="Menu Hamburger "></button>                                 
      <!-- Navigation menu goes here -->
     <nav class="navigation" >
             <a href="#" class="active">Home</a>
@@ -105,7 +110,7 @@
             
             
         </section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10908.713590221389!2d-91.5256081582294!3d14.83576776138764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1706203650570!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10908.713590221389!2d-91.5256081582294!3d14.83576776138764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1706203650570!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Quetzaltenango"></iframe>
     </main>
 
 
@@ -114,7 +119,12 @@
         <p id="copy">&copy; <span id="currentYear"></span> </p>
         <p id="name">Orlando Ancelmo Pinelo</p>
         <p id="country">Guatemala</p>
-        <img src="images/country-flag.jpg" alt="Guatemala Flag">
+        <!--<img src="images/country-flag2.webp" alt="Guatemala Flag" width="30" height="20">-->
+        <picture>
+            <source srcset="images/country-small.webp" media="(max-width: 400px )">
+            <source srcset="images/country-medium.webp" media="(max-width: 1000px )">
+            <img src="images/country-large.webp" alt="Quetzaltenango's Temple" width="306" height="192">
+            </picture>
         <p id="lastModified"></p>
         
     </footer>
