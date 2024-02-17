@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 856px){
+@media screen and (max-width: 500px){
   .container{
     height: 20px;
   }
@@ -7,23 +7,19 @@
         font-size: 18px;
         width: 150%;
     }
+    .logo img{
+      width: 100%;
+      height: auto;
+    }
     .top_bar_info{
       display: none;
     }
 
 
     .weather-container{
-      
-    
-      margin-left: 5rem;
-      margin-top: 1.7rem;
-      font-size: 0.6rem
-    
-    
-    }
-    .weather-details-tommorow{
-      display: none;
-    }
+      margin-left: 5px;
+      }
+
     .checkbtn{
         display: block;
         margin-right: 20px;
@@ -32,7 +28,10 @@
       width: 20%;
     }
     ul{
-        position: fixed;
+      top:150px;
+    }
+    /*ul{
+        position:fixed;
         width: 100%;
         height: 100vh;
         color: white;
@@ -42,6 +41,7 @@
         text-align: center;    
         transition: all .5s;
         border-top: 1px solid white;
+        z-index: 1;
         
     }
     nav ul li {
@@ -68,10 +68,41 @@
    }
    #check:checked ~ul{
     left: 0;
-   }
+   }*/
+   /**-------------------------------------------------------------------------**/
    .hero{
     grid-column: 1/4;
     font-size: 10px;
+    width: 100%;
+  }
+  .herolabel h1{
+    font-size: 2rem;
+    margin: 0;
+    
+}
+
+.herolabel{
+  position: absolute;
+  bottom: 1%;
+  left: 5%;
+  background: radial-gradient(#ffffff59, #16171800);
+ /* border: 1px solid rgba(0,0,0,.75);*/
+  padding: .5rem;
+  box-shadow: 0 0 3rem #161616fd;
+  opacity: 0.75;
+
+}
+.herolabel h2{
+    font-size: 1rem;
+    margin: 0;
+}
+.herolabel a{
+    font-size: 1rem;
+    margin: 5px;
+}
+  /*.........................................................*/
+
+  .hero picture img{
     width: 100%;
   }
  /***********************************************************/
@@ -99,9 +130,25 @@
   grid-column: 1/4;
   margin: 0 auto;
   width: 100%;
-  max-width: 100%;
   text-align: center;
 }
+.slide-details{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+
+}
+.slide-details h1 {
+  
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+
+.slide-details a {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  }
 
 #slide1:checked ~ #controls label:nth-child(2),
   #slide2:checked ~ #controls label:nth-child(3),
@@ -142,6 +189,10 @@
 /*******************************************************************/
   footer{
     bottom: unset;
+  }
+  .col img {
+    width: 30%;
+    height: auto;
   }
 }
  

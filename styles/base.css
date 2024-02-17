@@ -27,8 +27,8 @@ header img{
     padding: 5px;
 }
 
-h1{
-    font-size: 40px;
+header h1{
+    font-size: 2rem;
     padding-left: 30px;
 }
 
@@ -51,7 +51,7 @@ main h2{
     text-align: center;
     
 }
-
+/******************Hero Image and Text*********************************************/
 .hero img {
     width: 100%;
     height: auto;
@@ -75,14 +75,14 @@ main h2{
     /* Buenas */
 }
 
-.herolabel p {
+.herolabel h2 {
     margin: 0;
     padding: .1rem;
     font-weight: 700;
     font-size: 1rem;
     font-family:"Great Vibes", serif;
 }
-
+/*---------------------------------------------------------------------- */
 
 .card {
     border: 1px solid #ddd;

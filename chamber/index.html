@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +27,7 @@
    
     
     <header>
+<!--Top Bar Address , Email ,Phone,Login-->        
         <div class="top_bar">
            <div class="container">
              <div class="top-bar_info_wr">
@@ -42,34 +43,47 @@
            </div>
         </div>
       <div class="bottom_bar">
-
+<!--Weather-->
         <div class="weather-container">
-            
-            <div class=" weather-details-today">
-                <h3><i class="fa fa-sun-o"></i>98.32°</h3>
-                <h2>Today's</h2>
-            </div>
-            <div class=" weather-details-tommorow">
-                <h3><i class="fa fa-cloud"></i>60.3°<h3>
-                <h2>Tommorow's</h2>
-            </div>
-         </div>   
-             
+                <div class="temp">
+                  <span>Temperature:</span>
+                  <h3 id="temperature">72</h3>
+                  <h4>°F</h4>
+                  <!--<i class="fa fa-sun-o"></i>-->
+                </div>
+                <div class="windspeed">
+                    <span>Speed:</span>
+                    <h3 id="wind-speed">5.0</h3>
+                    <h4>mph</h4>
+                    
+                </div>
+                <div class="windchill" >
+                    <span>Chill:</span>
+                    <h3 id="wind-chill">N/A</h3>
+                </div>
+         </div>
+        
+         
+
+
+<!--Logo Xela Chamber of Commerce-->             
 
         <div class="logo"> 
-            <img src="images/logo.png" alt="Chamber Logo">
-           <!-- <label class="logotext">Chamber of Commerce</label>-->
-       </div>
+            <picture>
+                <source srcset="images/small_logo_250x112.webp" media="(max-width: 500px )">
+                <source srcset="images/medium_logo_600x269.webp" media="(max-width: 1000px )">
+                <img src="images/large_logo_800x358.webp" alt="Xela Chamber Logo--" width="800" height="358">
+    
+            </picture>
+        </div>
 
         <nav>
-            <input type="checkbox" id="check"> 
-            <label for="check" class="checkbtn">
-                <i class="fa fa-bars"></i>
+               <input type="checkbox" id="check"> 
+               <label for="check" class="checkbtn">
+               <i class="fa fa-bars"></i>
             </label>
            
-            
             <ul>
-
                 <li><i class="fa fa-home fa-lg"></i><a class="active" href="">Home</a></li>
                 <li><i class="fa fa-binoculars " aria-hidden="true"></i><a href="">Discover</a></li>
                 <li><i class="fa fa-folder "></i><a href="">Directory</a></li>
@@ -77,51 +91,37 @@
             </ul>
         </nav>
       </div>
+    
     </header>    
           
-<div class="hero-contained">
-    <section class="hero">
-        <div class="hero-container">
-         <div class="hero-info">
-            <h1>Developing Business.</h1>
-            <h2 >"Working with the brave who transform Quetzaltenango."</h2>
-            <p>To promote national prosperity and economic growth via a free enterprise system..</p>
-              <a href="#">Become a Member <i class="fa fa-angle-right fa-lg "></i></a>
-         </div>
+<!--Hero Image and Detail-->
+    <section class="hero-container">
+        <div class="hero">
+            <picture>
+                <source srcset="images/small-example-hero.webp" media="(max-width: 500px )">
+                <source srcset="images/medium-example-hero.webp" media="(max-width: 1000px )">
+                <img src="images/large-example-hero.webp" alt="Quetzaltenango's Temple" width="1500" height="750">
+    
+            </picture>
+            <div class="herolabel">
+                <h1>Developing Business.</h1>
+                <h2 >"Working with the brave who transform Quetzaltenango."</h2>
+                <!--<p>To promote national prosperity and economic growth via a free enterprise system..</p>-->
+                <a href="#">Become a Member <i class="fa fa-angle-right fa-lg "></i></a>
+    
+            </div>
         </div>
-     </section>
- </div>         
+    </section>
+ 
     
     
     
     
     
     
-    
+ <!--Contents , Currentevents, Spotlights-->   
      <main class="content-container">
-               
-        <!--<section class="weather-container">
-                         <div class="space">
-                            <span></span>
-                         </div>
-                        <div class="weather">
-
-                        <h1>Weather Summary</h1>
-                        <h3>Currently:</h3>
-                        <h3>High:</h3>
-                        <h3>Wind Chill: 25°C</h3>
-                        <h3>Humidity:</h3>
-                        <h3>Wind Speed:</h3>
-                        
-      
-                      
-                    </div>
-                    <div class="space">
-                        <span></span>
-                    </div>
-                    
-                </section>-->
-
+ <!--Current Events-->              
 <section class="currentevents">
             <div id="slider">
                 <input type="radio" name="slider" id="slide1" checked>
@@ -140,7 +140,13 @@
                                             </p>
                                             <a href="#">Sign Up</a>
                                         </div>
-                                        <img src="images/China.PNG" alt="Feria de Canton">
+                                        <picture>
+                                            <source srcset="images/small_china_326x326.webp" media="(max-width: 500px )">
+                                            <source srcset="images/medium_china_426x426.webp" media="(max-width: 1000px )">
+                                            <img src="images/large_china_526x526.webp" alt="Feria del Canton" width="526" height="526">
+                                
+                                        </picture>
+                                        
                                         
                                         </div>
                          </div>
@@ -153,8 +159,13 @@
                                     </p>
                                     <a href="#">Sign Up</a>
                                 </div>
-                                <img src="images/rueda.PNG" alt="Feria de Canton">
-                                
+                                <picture>
+                                    <source srcset="images/small_rueda_1_326x326.webp" media="(max-width: 500px )">
+                                    <source srcset="images/medium_rueda_426x426.webp" media="(max-width: 1000px )">
+                                    <img src="images/large_rueda_526x526.webp" alt="Rueda" width="526" height="526">
+                        
+                                </picture>
+                                                                
                                 </div>
                          </div>
                          <div class="slide slide_3">
@@ -166,7 +177,13 @@
                                     </p>
                                     <a href="#">Sign Up</a>
                                 </div>
-                                <img src="images/lider.PNG" alt="Feria de Canton">
+                                <picture>
+                                    <source srcset="images/small_lider_1_326x326.webp" media="(max-width: 500px )">
+                                    <source srcset="images/medium_lider_426x426.webp" media="(max-width: 1000px )">
+                                    <img src="images/large_lider_526x526.webp" alt="Rueda" width="526" height="526">
+                        
+                                </picture>
+                                
                                 
                                 </div>
                          </div>
@@ -178,7 +195,13 @@
                                         de Ciber Seguridad, en el marco del Innova..                                    </p>
                                     <a href="#">Sign Up</a>
                                 </div>
-                                <img src="images/ciber.PNG" alt="Feria de Canton">
+
+                                <picture>
+                                    <source srcset="images/small_ciber_1_312x390.webp" media="(max-width: 500px )">
+                                    <source srcset="images/medium_ciber_412x515.webp" media="(max-width: 1000px )">
+                                    <img src="images/large_ciber_512x640.webp" alt="CiberSecurity" width="512" height="640">
+                                </picture>
+                                
                                 
                                 </div>
                          </div>
@@ -204,10 +227,15 @@
         
 
         
-                <!-- Company Spotlights Section -->
+<!-- Company Spotlights Section -->
          <section class="spotlight-container">
                     <div class="spotlight1">
-                        <img src="images/spotlightQuetzaltenango.jpg" alt="Spotlight 1" class="spotlight-image">
+                        <picture>
+                            <source srcset="images/small_spotlightQuetzaltenango_400x300.webp" media="(max-width: 500px )">
+                            <source srcset="images/medium_spotlightQuetzaltenango_600x450.webp" media="(max-width: 1000px )">
+                            <img src="images/large_spotlightQuetzaltenango_800_600.webp" alt="Empresarios" width="800" height="600">
+                
+                        </picture>
                         <div class="spotlight-content">
                             <h1 class="spotlight-heading">Mision Comercial de Empresarios Peru-Guatemal</h1>
                             <h6>March 15 2023</h6>
@@ -228,13 +256,24 @@
                             </p>
                             <a href="#" class="spotlight-button">Learn More...</a>
                         </div>
-                        <img src="images/spotlightTwo.jpg" alt="Spotlight 1" class="spotlight-image">
+                        <picture>
+                            <source srcset="images/small_spotlightTwo_3_275x172.webp" media="(max-width: 500px )">
+                            <source srcset="images/medium_spotlightTwo_2_350x219.webp" media="(max-width: 1000px )">
+                            <img src="images/large_spotlightTwo_400x250.webp" alt="Delegacion" width="400" height="250">
+                
+                        </picture>
+                       
                         
                     </div>
 
                     <div class="spotlight3">
-                        <img src="images/spotligh3.jpg" alt="Spotlight 1" class="spotlight-image">
-                        <div class="spotlight-content">
+                        <picture>
+                            <source srcset="images/small_spotligh3_1_275x172.webp" media="(max-width: 500px )">
+                            <source srcset="images/medium_spotligh3_350x219.webp" media="(max-width: 1000px )">
+                            <img src="images/large_spotligh3_400x250.webp" alt="People" width="400" height="250">
+                
+                        </picture>
+                                                <div class="spotlight-content">
                             <h1 class="spotlight-heading">Visita de la Delegación de la República de Serbia</h1>
                             <h6>March 15 2023</h6>
                             <p class="spotlight-description">
@@ -247,24 +286,20 @@
                     
                 </section>
             </main>
-        
-            <!-- Footer Section -->
-           
-           
-           
-           
-           
-           
-           
-           
-            <footer>
+    <!-- Footer Section -->
+           <footer>
                 <!-- footer content goes here -->
                 
                  <div class="row">
                    
                     <div class="col">
-                        <img src="images/logo3.png" alt="Chamber Logo" class="logofooter">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, hic! Enim at, 
+                        <picture>
+                            <source srcset="images/small_footer_logo3_100x50.webp" media="(max-width: 500px )">
+                            <source srcset="images/medium_footer_logo3_200x100.webp" media="(max-width: 1000px )">
+                            <img src="images/large_footer_logo3_300x150.webp" alt="Xela Chamber Logo--" width="300" height="150">
+                
+                        </picture>           
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, hic! Enim at, 
                         officiis ullam quos distinctio sunt autem cumque deleniti doloremque ea eveniet vitae. 
                         Dicta obcaecati cum molestiae tempore consequuntur!</p>
                      </div>
@@ -294,7 +329,7 @@
                         <form>
                             <i class="fa fa-envelope"></i>
                             <input type="email" placeholder="Enter your email id" required>
-                            <button type="submit"><i class="fa fa-arrow-right"></i></button>
+                            <button type="submit" aria-label="right arrow"><i class="fa fa-arrow-right"></i></button>
                         </form>
                         <div class="social-icons">
                          <i class="fa fa-facebook"></i>
@@ -313,6 +348,8 @@
             
             
             <script src="scripts/getdates.js"></script>
+            <script src="scripts/windchill.js"></script>
+
         
         
 
