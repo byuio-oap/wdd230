@@ -159,7 +159,9 @@
   
 
 }
-
+.wordcolor{
+  color:var(--white);
+}
 
   /*.hero-contained{
     display: grid;
