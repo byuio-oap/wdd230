@@ -85,9 +85,8 @@
           
   }
   .logo img {
-    width: 100%;
       height: 80px;
-      margin-right: 60px;
+      margin-right: 50px;
   }
   .logotext{
     color: rgb(13, 67, 115);
@@ -141,7 +140,7 @@
   object-fit: cover;
 }
 .hero{
-  margin-top: 10px;
+  margin-top: 50px auto;
   margin-bottom: 15px;
   position: relative;
   border: 1px solid rgba(0,0,0,.75);
@@ -159,9 +158,7 @@
   
 
 }
-.wordcolor{
-  color:var(--white);
-}
+
 
   /*.hero-contained{
     display: grid;
@@ -393,8 +390,7 @@
 
 .slide-content img {
   width: 100%;
-  padding: 0px;
-  height: auto;
+  padding: 20px;
 }
 #slides .slide {
   width: 25%;
@@ -508,16 +504,13 @@
 
  .spotlight1 img{
     width: 100%;
-    height: auto;
  }
  .spotlight2 img{
   width: 100%;
-  height: auto;
 
 }
 .spotlight3 img{
   width: 100%;
-  height: auto;
 }
 
  .spotlight-content{
@@ -569,11 +562,6 @@
       flex-basis: 25%;
       padding: 10px;
     }
-    .col img{
-      width: 100%;
-      height: auto;
-    }
-
     .col:nth-child(2), .col:nth-child(3){
       flex-basis: 15%;
       

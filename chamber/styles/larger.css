@@ -7,15 +7,8 @@
         font-size: 18px;
         width: 150%;
     }
-    .logo img{
-      width: 100%;
-      height: auto;
-    }
     .top_bar_info{
       display: none;
-    }
-    .wordcolor{
-      color: black;
     }
 
 
@@ -31,7 +24,7 @@
       width: 20%;
     }
     ul{
-      top:150px;
+      top:103px;
     }
     /*ul{
         position:fixed;
@@ -133,25 +126,9 @@
   grid-column: 1/4;
   margin: 0 auto;
   width: 100%;
+  max-width: 100%;
   text-align: center;
 }
-.slide-details{
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: left;
-
-}
-.slide-details h1 {
-  
-  font-size: 1.7rem;
-  margin-top: 1rem;
-}
-
-.slide-details a {
-  margin-top: 1rem;
-  padding: 0.5rem;
-  margin-bottom: 10px;
-  }
 
 #slide1:checked ~ #controls label:nth-child(2),
   #slide2:checked ~ #controls label:nth-child(3),
@@ -192,10 +169,6 @@
 /*******************************************************************/
   footer{
     bottom: unset;
-  }
-  .col img {
-    width: 30%;
-    height: auto;
   }
 }
  

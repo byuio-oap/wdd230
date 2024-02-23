@@ -8,7 +8,7 @@
     <title>Orlando Ancelmo Pinelo - WDD 230 - Web Frontend Development</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet" defer>
     <!--Favicon Logo-->
     <link rel="icon" href="images/favicon.ico">
     <!-- Facebook Meta Tags-->
@@ -29,10 +29,10 @@
         <!-- Header content goes here -->
        <!--- <img src="images/profile-image2.webp" alt="Orlando Ancelmo Pinelo" width="418" height="515">-->
         <picture>
-            <source srcset="images/profile-samll.webp" media="(max-width: 400px )">
+            <source srcset="images/profile-small.webp" media="(max-width: 400px )">
             <source srcset="images/profile-medium.webp" media="(max-width: 1000px )">
-            <img src="images/profile-large.webp" alt="Quetzaltenango's Temple" width="418" height="515">
-            </picture>
+            <img src="images/profile-large.webp" alt="Quetzaltenango's Temple" width="400" height="500">
+        </picture>
         <h1>Orlando Ancelmo Pinelo</h1>
         
     </header>
@@ -84,9 +84,9 @@
                 <li><a href="lesson02/design.html">Design Principles</a> | <a href="lesson01/media-query.html">Media Query</a>|<a href="lesson02/design-principles.html">Design Principle Document</a></li>
                 <li><a href="https://codepen.io/blazzard-jason/pen/RwYLvJY">Responsive Hamburger</a>|<a href="lesson03/images/CombinatorExcercise.PNG">Combinators</a></li>
                 <li><a href="lesson03/chamber-site-plan.html">Chambers of Commerce Site Plan</a>|<a href="chamber/index.html">Buidling Chamber of Commerce Home Page</a></li>
-                <li><a href="lesson05/bom.html">Book of Mormon 10 Top </a></li>
+                <li><a href="lesson05/bom.html">Book of Mormon 10 Top </a>|<a href="https://codepen.io/byuio-oap/pen/mdoYNYj">Image Aspect Ratio</a></li>
                 <li><a href="lesson06/images/landscape.webp">WebP</a>|<a href="lesson06/responsive-images.html">Responsive Temple Image</a></li>
-                <li><a href="#">Activity 2</a></li>
+                <li><a href="lesson07/lazyload.html">Lazy Image Loading</a>|<a href="lesson07/bom.html">Book of Mormon Web Storage</a></li>
                 <li><a href="#">Activity 1</a></li>
                 <li><a href="#">Activity 2</a></li>
                 <li><a href="#">Activity 2</a></li>
@@ -99,7 +99,7 @@
             <h3>Information</h3>
             <p>Guatemala , Quetzaltenango</p>
             <p>98°F- Sunshine</p>
-            <p>Number of Visits: [20]</p>
+            <p>Number of Visits:<span class="visits"></span></p>
             <br>
             <br>
             <br>
