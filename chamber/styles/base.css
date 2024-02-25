@@ -673,3 +673,133 @@ hr{
     margin-bottom: 30px;
 }
 
+/*Discover----------------------------------------*/
+.discover-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Sidebar takes 1/4 and Main takes 3/4 of the available width */
+  gap: 20px;
+  padding: 20px;
+
+}
+ .sidebar{
+  border: 1px solid black;
+  line-height: 1.3rem;
+  border-radius: 5px;
+ }
+.xela-general h2, .xela-history h2{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.xela-history, .xela-map  {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.xela-general, .xela-history,.xela-demographics {
+  padding: 15px;
+}
+.xela-flag-seal{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.xela-map{
+  padding: 15px;
+}
+.xela-history img, .xela-map img ,.xela-flag-seal img,.main-content img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  opacity: 0;
+    transition: opacity 1.5s;
+}
+/*@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}*/
+
+.xela-history img.show,
+.xela-map img.show,
+.xela-flag-seal img.show,
+.main-content img.show {
+    opacity: 1;
+}
+
+
+.xela-demographics{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+}
+.xela-demographics h4{
+  border-bottom: 1px solid black;
+  background-color: #00A8E8;
+}
+.visit-dates{
+  display: block;
+  text-align: center;
+  background-color: rgb(13, 67, 115);
+  color: white;
+}
+/*test*/
+.header-overlay{
+  position: relative;
+  overflow: hidden;
+}
+
+.port{
+  -webkit-transition: all 15s;
+  -moz-transition: all 15s;
+  -o-transition: all 15s;
+  transition: all 15s;
+
+}
+.img-text{
+  position: absolute;
+  bottom: 0;
+  
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+  background: radial-gradient(#131212c2, #171718cc); 
+   color: #fcf6f6;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+  
+  
+
+}
+.img-text p{
+  text-align: center;
+  font-size: 1rem;
+}
+.header-overlay:hover .img-text{
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+.header-overlay:hover .port{
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}

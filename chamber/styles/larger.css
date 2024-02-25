@@ -166,9 +166,19 @@
 .spotlight3{
   grid-column: 1/9;
 }
+
+/*Discover*/
+.discover-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+
 /*******************************************************************/
   footer{
     bottom: unset;
   }
 }
  
+
