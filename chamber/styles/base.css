@@ -729,7 +729,8 @@ hr{
 .xela-history img.show,
 .xela-map img.show,
 .xela-flag-seal img.show,
-.main-content img.show {
+.main-content img.show,
+.header-overlay img.show {
     opacity: 1;
 }
 
@@ -785,31 +786,7 @@ hr{
   transform: translate(-50%,-50%);
   font-size: 20px;
 }
-/*.overlayLeft{
-  height: 100%;
-  width: 0;
-  top: 0;
-  left: 0;
-  background: radial-gradient(#13121246, #17171852);
-}
 
-.overlayRight{
-  height: 100%;
-  width: 0;
-  top: 0;
-  right: 0;
-  background: radial-gradient(#13121246, #17171852);
-}
-.container:hover .overlayLeft,.container:hover .overlayRight{
-  width: 75%;
-}
-.overlayTop{
-  width: 100%;
-  height: 0;
-  top: 0;
-  left: 0;
-  background: radial-gradient(#13121246, #17171852);
-}*/
 .overlayBottom{
   width: 100%;
   height: 0;
@@ -821,74 +798,3 @@ hr{
   height: 25%;
 }
 
-/*.overlayCross{
-  width: 0;
-  height: 0;
-  top: 0;
-  left: 0;
-  background: radial-gradient(#817d7dc0, #09099625);
-}
-.header-overlay:hover .overlayCross{
-  width: 70%;
-  height: 70%;
-}
-/*
-.overlayFade{
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: radial-gradient(#13121246, #17171852);
-
-}*/
-
-/*.port{
-  -webkit-transition: all 15s;
-  -moz-transition: all 15s;
-  -o-transition: all 15s;
-  transition: all 15s;
-
-}
-.img-text{
-  position: absolute;
-  bottom: 0;
-  
-  padding: 10px;
-  width: 100%;
-  height: 200px;
-  background: radial-gradient(#131212c2, #171718cc); 
-   color: #fcf6f6;
-  -webkit-transform: translateY(100%);
-  -moz-transform: translateY(100%);
-  -ms-transform: translateY(100%);
-  -o-transform: translateY(100%);
-  transform: translateY(100%);
-
-  -webkit-transition: all .5s ease-out;
-  -moz-transition: all .5s ease-out;
-  -o-transition: all .5s ease-out;
-  transition: all .5s ease-out;
-
-  
-  
-  
-
-}
-.img-text p{
-  text-align: center;
-  font-size: 1rem;
-}
-.header-overlay:hover .img-text{
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
-  transform: translateY(0);
-}
-.header-overlay:hover .port{
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -o-transform: scale(0.9);
-  transform: scale(0.9);
-}*/
