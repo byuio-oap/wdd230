@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="author" content="Orlando Ancelmo Pinelo" >
+    <meta name="description" content="Chamber of Commerce Website for the Municipality of Quetzaltenango-Xela">
+    <title>Chamber of Commerce, Xela</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
+    <!--Favicon Logo-->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Facebook Meta Tags-->
+    <meta property="og:title" content="WDD230- Web Fronted Chamber of Commerce">
+    <meta property="og:type" content="website" >
+    <meta property="og:image" content="https://www.shutterstock.com/es/image-photo/walking-through-quetzaltenango-guatemala-xela-1869936772">
+    <meta property="og:url" content="https://byuio-oap.github.io/wdd230/">
+    <!---StyleSheets-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+   
+    
+    <header>
+<!--Top Bar Address , Email ,Phone,Login----------------------------->        
+        <div class="top_bar">
+           <div class="container">
+             <div class="top-bar_info_wr">
+                <ul class="top_bar_info">
+                    <li><i class="fa fa-map-marker" ></i><span> #1 Avenida 6-29 Zona 1 Quetzaltenango, Guatemala </span></li>
+                    <li><i class="fa fa-envelope"></i><span>xecc@xelachamber.com.gt</span></li>
+                    <li><i class="fa fa-phone">502-54338708/502-43952376</i><span></span></li>
+                    <li><button class="login_button">Login</button></li>
+                    
+                </ul>
+               
+             </div>
+           </div>
+        </div>
+      <div class="bottom_bar">
+<!--Weather------------------------------------------------------------->
+        <div class="weather-container">
+                <div class="temp">
+                  <span>Temperature:</span>
+                  <h3 id="temperature">72</h3>
+                  <h4>°F</h4>
+                  <!--<i class="fa fa-sun-o"></i>-->
+                </div>
+                <div class="windspeed">
+                    <span>Speed:</span>
+                    <h3 id="wind-speed">5.0</h3>
+                    <h4>mph</h4>
+                    
+                </div>
+                <div class="windchill" >
+                    <span>Chill:</span>
+                    <h3 id="wind-chill">N/A</h3>
+                </div>
+         </div>
+        
+         
+
+
+<!----Logo Xeal Chamber of Commerce-------------------------------------->             
+
+        <div class="logo"> 
+            <img src="images/logo.png" alt="Chamber Logo">
+        </div>
+
+        <nav>
+               <input type="checkbox" id="check"> 
+               <label for="check" class="checkbtn">
+               <i class="fa fa-bars"></i>
+            </label>
+           
+            <ul>
+                <li><i class="fa fa-home fa-lg"></i><a  href="./index.html">Home</a></li>
+                <li><i class="fa fa-binoculars " aria-hidden="true"></i><a href="#" class="active">Discover</a></li>
+                <li><i class="fa fa-folder "></i><a href="">Directory</a></li>
+                <li><i class="fa fa-users"></i><a href="">Join us</a></li>
+            </ul>
+        </nav>
+      </div>
+    
+    </header>    
+          
+<!------Hero Image and Detail-------------------------------------------->
+<main>
+
+<div class="discover-container">
+              <div class="sidebar">
+                        <div class="xela-general">
+                            <h2>Quetzaltenango</h2>
+                            <p>Quetzaltenango is a department in the western highlands of Guatemala. The capital is the city of Quetzaltenango, the second largest city in Guatemala.[3] The department is divided up into 24 municipalities. The inhabitants include Spanish-speaking Ladinos and the Kʼicheʼ and Mam Maya groups, both with their own Maya language. The department consists of mountainous terrain, with its principal river being the Samalá River. the department is seismically active, suffering from both earthquakes and volcanic activity.</p>  
+                            <p>The department takes its name from the city of Quetzaltenango, which serves as the departmental capital.[4] Although the original Kʼicheʼ inhabitants knew the city by the name Xelaju, the Nahuatl-speaking allies of the Spanish Conquistadors named it Quetzaltenango in their own language, meaning "land of the quetzal birds".[5]</p>  
+                        </div>
+              
+                        <div class="xela-history">
+                              <h2>Early History</h2>
+                              <picture class="fade-effect">
+                                <source srcset="./images/small_Tecun_Uman_280x373.webp" media="(max-width: 400px )">
+                                <source srcset="./images/medium_Tecun_Uman_380x507.webp" media="(max-width: 1000px )">
+                                <img src="images/large_Tecun_Uman.webp" alt="Quetzaltenango's Temple" width="480" height="640" loading="lazy">
+                              </picture>
+                                <p>The territory that came to be included within the modern department of Quetzaltenango was the scene of several decisive battles in February 1524 between Spanish conquistador Pedro de Alvarado and the Kʼicheʼ Kingdom of Qʼumarkaj. Pedro de Alvarado had initially advanced with his army along the Pacific coast without opposition until they reached the Samalá River; this region formed a part of the Kʼicheʼ kingdom.[6] Alvarado then turned to head upriver into the Sierra Madre mountains towards the Kʼicheʼ heartlands, crossing the pass into the fertile valley of Quetzaltenango.</p>  
+                        </div>
+                 
+                        <div class="xela-flag-seal">
+                                <picture class="fade-effect">
+                                  <source srcset="./images/small_Vlagquetzaltenango_200x134.webp" media="(max-width: 400px )">
+                                  <source srcset="./images/medium_Vlagquetzaltenango_225x150.webp" media="(max-width: 1000px )">
+                                  <img src="images/large_Vlagquetzaltenango.webp" alt="Quetzaltenango's Temple" width="325" height="217" loading="lazy">
+                                </picture>
+                                <picture class="fade-effect">
+                                  <source srcset="./images/small_Coat_of_arms_of_Quetzaltenango_1_125x132.webp" media="(max-width: 400px )">
+                                  <source srcset="./images/medium_Coat_of_arms_of_Quetzaltenango_150x159.webp" media="(max-width: 1000px )">
+                                  <img src="images/large_Coat_of_arms_of_Quetzaltenango.webp" alt="Quetzaltenango's Temple" width="205" height="217" loading="lazy">
+                              </picture>  
+                        </div>
+                        <div class="xela-map">
+                          <picture class="fade-effect">
+                              <source srcset="./images/small_xelamap_1_400x440.webp" media="(max-width: 400px )">
+                              <source srcset="./images/medium_xelamap_600x660.webp" media="(max-width: 1000px )">
+                              <img src="images/large_xelamap.webp" alt="Quetzaltenango's Temple" width="800" height="880" loading="lazy">
+                          </picture>
+                            <p>Quetzaltenango</p>
+                            <span >Coordinates:</span>
+                      </div>
+                <div class="xela-demographics">
+                  <div class="sidebar-xela-demographich=s">
+                      <h4>Country</h4>
+                      <h4>Capital</h4>
+                      <h5>Municipalities</h5>
+                      <h4>Goverment</h4>
+                      <p>.Type</p>
+                      <p>Govenor</p>
+                      <h4>Area</h4>
+                      <p>Department</p>
+                      <h4>Elevation</h4>
+                      <h4>Population(2023)</h4>
+                      <p>Department</p>
+                      <p>Density</p>
+                      <p>Urban</p>
+                      <p>Ethnicities</p>
+                      <p>Religions</p>
+                      <h4>Time zone</h4>
+                      <h4>ISO 3166 code</h4>
+                  </div>
+                  
+                  <div class="details-xela-demographics">
+                        <p>Guatemala</p>
+                        <p>Quetzaltenango(Xelalju)</p>
+                        <p>24</p>
+                        <p>-</p>
+                        <p>departmental</p>
+                        <p>Dora Otilia Alcahe Lopez</p>
+                        <p>-</p>
+                        <p>1,951 km2 (753 sq mi)</p>
+                        <p>2.333m(7,654 ft)</p>
+                        <p>-</p>
+                        <p>799,101</p>
+                        <p>410km2 (1,100 sq mi)</p>
+                        <p>491,834</p>
+                        <p>K'iche Mam Ladino</p>
+                        <p>Roman Catholicism</p>
+                        <p>UTC-6</p>
+                        <p>GT-OZ</p>
+                    </div>
+                
+                </div>
+                         <p><span class="visit-dates"></span></p>
+        </div><!--Side Ends-->
+      
+      
+   <div class="picture-catalog">
+
+           <div>
+                  <div>
+                                                 
+                            <div class="header-overlay">
+                                <picture class="fade-effect">
+                                  <source srcset="./images/small-central-park_200x124.webp" media="(max-width: 400px )">
+                                  <source srcset="./images/medium-central-park_400x247.webp" media="(max-width: 1000px )">
+                                  <img src="images/large-central-park.webp" alt="Quetzaltenango's Temple" width="665" height="410" loading="lazy" class="image">
+                                </picture>
+                                  <div class="overlay overlayBottom">
+                                      <div class="img-text">
+                                          <h3>Lorem, ipsum.</h3>
+                                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
+                                      </div>
+                                  </div>
+                            </div>
+                            <div>
+                                  <div class="header-overlay">
+                                    <picture class="fade-effect">
+                                      <source srcset="./images/small-fantastic-santa-maria_250x161.webp" media="(max-width: 400px )">
+                                      <source srcset="./images/medium-fantastic-santa-maria_400x257.webp" media="(max-width: 1000px )">
+                                      <img src="images/large-fantastic-santa-maria.webp" alt="Santa Maria View" width="804" height="516" loading="lazy" class="image">
+                                    </picture>
+                                      <div class="overlay overlayBottom">
+                                          <div class="img-text">
+                                            <h3>Lorem, ipsum.</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                            </div>
+                            
+
+                  </div>
+
+                  <div>
+                      
+                          <div class="header-overlay">
+                            <picture class="fade-effect">
+                              <source srcset="./images/small-volcano_350-263.webp" media="(max-width: 400px )">
+                              <source srcset="./images/medium-volcano_600x450.webp" media="(max-width: 1000px )">
+                              <img src="images/large-volcano.webp" alt="Santa Maria Volcano" width="1024" height="768" loading="lazy" class="image">
+                            </picture>
+                              <div class="overlay overlayBottom">
+                                  <div class="img-text">
+                                    <h3>Lorem, ipsum.</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
+                                  </div>
+                              </div>
+                          </div>
+                                  
+                          <div class="header-overlay">
+                            <picture class="fade-effect">
+                              <source srcset="./images/small-almolonga_300x202.webp" media="(max-width: 400px )">
+                              <source srcset="./images/medium-almolonga_600x404.webp" media="(max-width: 1000px )">
+                              <img src="images/large-almolonga_866x583.webp" alt="Local Market" width="866" height="583" loading="lazy" class="image">
+                            </picture>
+                                      <div class="overlay overlayBottom">
+                                          <div class="img-text">
+                                            <h3>Lorem, ipsum.</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
+                                          </div>
+                                      </div>
+                                </div>
+
+                  </div>
+
+                  <div>
+                      
+                              <div class="header-overlay">
+                                  <picture class="fade-effect">
+                                    <source srcset="./images/small_cerro-el-baul_1_300x225.webp" media="(max-width: 400px )">
+                                    <source srcset="./images/medium_cerro-el-baul_600x450.webp" media="(max-width: 1000px )">
+                                    <img src="images/large_cerro-el-baul.webp" alt="Quetzaltenango's Temple" width="665" height="410" loading="lazy" class="image">
+                                  </picture>
+                                    <div class="overlay overlayBottom">
+                                        <div class="img-text">
+                                          <h3>Lorem, ipsum.</h3>
+                                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
+                                        </div>
+                                    </div>
+                              </div>
+                              <div class="header-overlay">
+                                <picture class=fade-effect>
+                                  <source srcset="./images/small_mirador_300x200.webp" media="(max-width: 400px )">
+                                  <source srcset="./images/medium_mirador_600x399.webp" media="(max-width: 1000px )">
+                                  <img src="images/large_mirador.webp" alt="View of Xela" width="1008" height="671" loading="lazy" class="image">
+                                </picture>
+                                  <div class="overlay overlayBottom">
+                                      <div class="img-text">
+                                        <h3>Lorem, ipsum.</h3>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
+                                      </div>
+                                  </div>
+                            </div>
+
+                   </div>
+            </div>
+    </div><!--Picture Catalog Ends-->
+
+</div>
+</main> 
+
+    
+    
+    
+    
+    
+ <!----------Contents , Currentevents, Spotlights----------------------------------->   
+     
+    <!----------------------- Footer Section -------------------------------------------->
+           <footer>
+                <!-- footer content goes here -->
+                
+                 <div class="row">
+                   
+                    <div class="col">
+                        <img src="images/logo3.png" alt="Chamber Logo" class="logofooter">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, hic! Enim at, 
+                        officiis ullam quos distinctio sunt autem cumque deleniti doloremque ea eveniet vitae. 
+                        Dicta obcaecati cum molestiae tempore consequuntur!</p>
+                     </div>
+
+                    <div class="col">
+                        <h3>Office<!--<div class="underline"><span></span></div>--></h3>
+                        <p>#1 Avenida 6-29</p>
+                        <p>Quetzaltenango , Guatemala </p>
+                        <p>Central America Postal Code 09001</p>
+                        <p class="email-id">xecc@xelachamber.com</p>
+                        <h4>+502-7789-8705</h4>
+                    </div>
+
+                    <div class="col">
+                        <h3>Links<!--<div class="underline"><span></span></div>--></h3>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Discover</a></li>
+                            <li><a href="">Directory</a></li>
+                            <li><a href="">Join Us</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="col">
+                        <h3>Newsletter<!--<div class="underline"><span></span></div>--></h3>
+                        <form>
+                            <i class="fa fa-envelope"></i>
+                            <input type="email" placeholder="Enter your email id" required>
+                            <button type="submit"><i class="fa fa-arrow-right"></i></button>
+                        </form>
+                        <div class="social-icons">
+                         <i class="fa fa-facebook"></i>
+                         <i class="fa fa-twitter"></i>
+                         <i class="fa fa-whatsapp"></i>
+                         <i class="fa fa-pinterest"></i>
+                        </div>
+                    </div>
+                 </div>
+                <hr>
+                <p class="copyright"> @ <span id="currentYear"></span>-Orlando Ancelmo Pinelo WDD-230 <span id="lastModified"></span></p>
+                
+            </footer>
+        
+            <!-- JavaScript code to dynamically populate the current year and last modified date -->
+            
+            
+            <script src="scripts/getdates.js"></script>
+            <script src="scripts/windchill.js"></script>
+            <script src="scripts/lazyloading.js"></script>
+            <script src="scripts/checker.js"></script>
+
+        
+        
+
+
+    
+    
+</body>
+</html>
