@@ -69,7 +69,13 @@
 <!----Logo Xeal Chamber of Commerce-------------------------------------->             
 
         <div class="logo"> 
-            <img src="images/logo.png" alt="Chamber Logo">
+          <picture>
+            <source srcset="images/small_logo.webp" media="(max-width: 500px )">
+            <source srcset="images/medium_logo_250x112.webp" media="(max-width: 1000px )">
+            <img src="images/large_logo_300x134.webp" alt="Logo Xela Chamber" width="300" height="134">
+
+        </picture>
+            
         </div>
 
         <nav>
@@ -79,8 +85,8 @@
             </label>
            
             <ul>
-                <li><i class="fa fa-home fa-lg"></i><a  href="./index.html">Home</a></li>
-                <li><i class="fa fa-binoculars " aria-hidden="true"></i><a href="#" class="active">Discover</a></li>
+                <li><i class="fa fa-home fa-lg"></i><a href="/chamber/index.html">Home</a></li>
+                <li><i class="fa fa-binoculars " aria-hidden="true"></i><a class="active" href="./discover.html" >Discover</a></li>
                 <li><i class="fa fa-folder "></i><a href="">Directory</a></li>
                 <li><i class="fa fa-users"></i><a href="">Join us</a></li>
             </ul>
@@ -92,180 +98,135 @@
 <!------Hero Image and Detail-------------------------------------------->
 <main>
 
-<div class="discover-container">
-              <div class="sidebar">
-                        <div class="xela-general">
-                            <h2>Quetzaltenango</h2>
-                            <p>Quetzaltenango is a department in the western highlands of Guatemala. The capital is the city of Quetzaltenango, the second largest city in Guatemala.[3] The department is divided up into 24 municipalities. The inhabitants include Spanish-speaking Ladinos and the Kʼicheʼ and Mam Maya groups, both with their own Maya language. The department consists of mountainous terrain, with its principal river being the Samalá River. the department is seismically active, suffering from both earthquakes and volcanic activity.</p>  
-                            <p>The department takes its name from the city of Quetzaltenango, which serves as the departmental capital.[4] Although the original Kʼicheʼ inhabitants knew the city by the name Xelaju, the Nahuatl-speaking allies of the Spanish Conquistadors named it Quetzaltenango in their own language, meaning "land of the quetzal birds".[5]</p>  
-                        </div>
-              
-                        <div class="xela-history">
-                              <h2>Early History</h2>
-                              <picture class="fade-effect">
-                                <source srcset="./images/small_Tecun_Uman_280x373.webp" media="(max-width: 400px )">
-                                <source srcset="./images/medium_Tecun_Uman_380x507.webp" media="(max-width: 1000px )">
-                                <img src="images/large_Tecun_Uman.webp" alt="Quetzaltenango's Temple" width="480" height="640" loading="lazy">
-                              </picture>
-                                <p>The territory that came to be included within the modern department of Quetzaltenango was the scene of several decisive battles in February 1524 between Spanish conquistador Pedro de Alvarado and the Kʼicheʼ Kingdom of Qʼumarkaj. Pedro de Alvarado had initially advanced with his army along the Pacific coast without opposition until they reached the Samalá River; this region formed a part of the Kʼicheʼ kingdom.[6] Alvarado then turned to head upriver into the Sierra Madre mountains towards the Kʼicheʼ heartlands, crossing the pass into the fertile valley of Quetzaltenango.</p>  
-                        </div>
-                 
-                        <div class="xela-flag-seal">
-                                <picture class="fade-effect">
-                                  <source srcset="./images/small_Vlagquetzaltenango_200x134.webp" media="(max-width: 400px )">
-                                  <source srcset="./images/medium_Vlagquetzaltenango_225x150.webp" media="(max-width: 1000px )">
-                                  <img src="images/large_Vlagquetzaltenango.webp" alt="Quetzaltenango's Temple" width="325" height="217" loading="lazy">
-                                </picture>
-                                <picture class="fade-effect">
-                                  <source srcset="./images/small_Coat_of_arms_of_Quetzaltenango_1_125x132.webp" media="(max-width: 400px )">
-                                  <source srcset="./images/medium_Coat_of_arms_of_Quetzaltenango_150x159.webp" media="(max-width: 1000px )">
-                                  <img src="images/large_Coat_of_arms_of_Quetzaltenango.webp" alt="Quetzaltenango's Temple" width="205" height="217" loading="lazy">
-                              </picture>  
-                        </div>
-                        <div class="xela-map">
-                          <picture class="fade-effect">
-                              <source srcset="./images/small_xelamap_1_400x440.webp" media="(max-width: 400px )">
-                              <source srcset="./images/medium_xelamap_600x660.webp" media="(max-width: 1000px )">
-                              <img src="images/large_xelamap.webp" alt="Quetzaltenango's Temple" width="800" height="880" loading="lazy">
-                          </picture>
-                            <p>Quetzaltenango</p>
-                            <span >Coordinates:</span>
-                      </div>
-                <div class="xela-demographics">
-                  <div class="sidebar-xela-demographich=s">
-                      <h4>Country</h4>
-                      <h4>Capital</h4>
-                      <h5>Municipalities</h5>
-                      <h4>Goverment</h4>
-                      <p>.Type</p>
-                      <p>Govenor</p>
-                      <h4>Area</h4>
-                      <p>Department</p>
-                      <h4>Elevation</h4>
-                      <h4>Population(2023)</h4>
-                      <p>Department</p>
-                      <p>Density</p>
-                      <p>Urban</p>
-                      <p>Ethnicities</p>
-                      <p>Religions</p>
-                      <h4>Time zone</h4>
-                      <h4>ISO 3166 code</h4>
-                  </div>
-                  
-                  <div class="details-xela-demographics">
-                        <p>Guatemala</p>
-                        <p>Quetzaltenango(Xelalju)</p>
-                        <p>24</p>
-                        <p>-</p>
-                        <p>departmental</p>
-                        <p>Dora Otilia Alcahe Lopez</p>
-                        <p>-</p>
-                        <p>1,951 km2 (753 sq mi)</p>
-                        <p>2.333m(7,654 ft)</p>
-                        <p>-</p>
-                        <p>799,101</p>
-                        <p>410km2 (1,100 sq mi)</p>
-                        <p>491,834</p>
-                        <p>K'iche Mam Ladino</p>
-                        <p>Roman Catholicism</p>
-                        <p>UTC-6</p>
-                        <p>GT-OZ</p>
-                    </div>
-                
-                </div>
-                         <p><span class="visit-dates"></span></p>
-        </div><!--Side Ends-->
-      
-      
-   <div class="picture-catalog">
-
-           <div>
-                  <div>
-                                                 
-                            <div class="header-overlay fade-effect">
-                                <picture >
-                                  <source srcset="./images/small-central-park_200x124.webp" media="(max-width: 400px )">
-                                  <source srcset="./images/medium-central-park_400x247.webp" media="(max-width: 1000px )">
-                                  <img src="images/large-central-park.webp" alt="Quetzaltenango's Temple" width="665" height="410" loading="lazy" class="image">
-                                </picture>
-                                  <div class="overlay overlayBottom">
-                                      <div class="img-text">
-                                          <h3>Lorem, ipsum.</h3>
-                                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
-                                      </div>
-                                  </div>
+    <div class="discover-container">
+                  <div class="sidebar">
+                            <div class="xela-general">
+                                <h2>Quetzaltenango</h2>
+                                <p>Quetzaltenango is a department in the western highlands of Guatemala. The capital is the city of Quetzaltenango, the second largest city in Guatemala.[3] The department is divided up into 24 municipalities. The inhabitants include Spanish-speaking Ladinos and the Kʼicheʼ and Mam Maya groups, both with their own Maya language. The department consists of mountainous terrain, with its principal river being the Samalá River. the department is seismically active, suffering from both earthquakes and volcanic activity.</p>  
+                                <p>The department takes its name from the city of Quetzaltenango, which serves as the departmental capital.[4] Although the original Kʼicheʼ inhabitants knew the city by the name Xelaju, the Nahuatl-speaking allies of the Spanish Conquistadors named it Quetzaltenango in their own language, meaning "land of the quetzal birds".[5]</p>  
                             </div>
-                            <div>
-                                  <div class="header-overlay fade-effect">
-                                    <picture>
-                                      <source srcset="./images/small-fantastic-santa-maria_250x161.webp" media="(max-width: 400px )">
-                                      <source srcset="./images/medium-fantastic-santa-maria_400x257.webp" media="(max-width: 1000px )">
-                                      <img src="images/large-fantastic-santa-maria.webp" alt="Santa Maria View" width="804" height="516" loading="lazy" class="image">
+                  
+                            <div class="xela-history">
+                                  <h2>Early History</h2>
+                                  <picture class="fade-effect">
+                                    <source srcset="./images/small_Tecun_Uman_280x373.webp" media="(max-width: 400px )">
+                                    <source srcset="./images/medium_Tecun_Uman_380x507.webp" media="(max-width: 1000px )">
+                                    <img src="images/large_Tecun_Uman.webp" alt="Quetzaltenango's Temple" width="480" height="640" loading="lazy">
+                                  </picture>
+                                    <p>The territory that came to be included within the modern department of Quetzaltenango was the scene of several decisive battles in February 1524 between Spanish conquistador Pedro de Alvarado and the Kʼicheʼ Kingdom of Qʼumarkaj. Pedro de Alvarado had initially advanced with his army along the Pacific coast without opposition until they reached the Samalá River; this region formed a part of the Kʼicheʼ kingdom.[6] Alvarado then turned to head upriver into the Sierra Madre mountains towards the Kʼicheʼ heartlands, crossing the pass into the fertile valley of Quetzaltenango.</p>  
+                            </div>
+                     
+                            <div class="xela-flag-seal">
+                                    <picture class="fade-effect">
+                                      <source srcset="./images/small_Vlagquetzaltenango_200x134.webp" media="(max-width: 400px )">
+                                      <source srcset="./images/medium_Vlagquetzaltenango_225x150.webp" media="(max-width: 1000px )">
+                                      <img src="images/large_Vlagquetzaltenango.webp" alt="Quetzaltenango's Temple" width="325" height="217" loading="lazy">
+                                    </picture>
+                                    <picture class="fade-effect">
+                                      <source srcset="./images/small_Coat_of_arms_of_Quetzaltenango_1_125x132.webp" media="(max-width: 400px )">
+                                      <source srcset="./images/medium_Coat_of_arms_of_Quetzaltenango_150x159.webp" media="(max-width: 1000px )">
+                                      <img src="images/large_Coat_of_arms_of_Quetzaltenango.webp" alt="Quetzaltenango's Temple" width="205" height="217" loading="lazy">
+                                  </picture>  
+                            </div>
+                            <div class="xela-map">
+                              <picture class="fade-effect">
+                                  <source srcset="./images/small_xelamap_1_400x440.webp" media="(max-width: 400px )">
+                                  <source srcset="./images/medium_xelamap_600x660.webp" media="(max-width: 1000px )">
+                                  <img src="images/large_xelamap.webp" alt="Quetzaltenango's Temple" width="800" height="880" loading="lazy">
+                              </picture>
+                                <p>Quetzaltenango</p>
+                                <span >Coordinates:</span>
+                          </div>
+                    <div class="xela-demographics">
+                      <div class="sidebar-xela-demographich=s">
+                          <h4>Country</h4>
+                          <h4>Capital</h4>
+                          <h5>Municipalities</h5>
+                          <h4>Goverment</h4>
+                          <p>.Type</p>
+                          <p>Govenor</p>
+                          <h4>Area</h4>
+                          <p>Department</p>
+                          <h4>Elevation</h4>
+                          <h4>Population(2023)</h4>
+                          <p>Department</p>
+                          <p>Density</p>
+                          <p>Urban</p>
+                          <p>Ethnicities</p>
+                          <p>Religions</p>
+                          <h4>Time zone</h4>
+                          <h4>ISO 3166 code</h4>
+                      </div>
+                      
+                      <div class="details-xela-demographics">
+                            <p>Guatemala</p>
+                            <p>Quetzaltenango(Xelalju)</p>
+                            <p>24</p>
+                            <p>-</p>
+                            <p>departmental</p>
+                            <p>Dora Otilia Alcahe Lopez</p>
+                            <p>-</p>
+                            <p>1,951 km2 (753 sq mi)</p>
+                            <p>2.333m(7,654 ft)</p>
+                            <p>-</p>
+                            <p>799,101</p>
+                            <p>410km2 (1,100 sq mi)</p>
+                            <p>491,834</p>
+                            <p>K'iche Mam Ladino</p>
+                            <p>Roman Catholicism</p>
+                            <p>UTC-6</p>
+                            <p>GT-OZ</p>
+                        </div>
+                    
+                    </div>
+                             <p><span class="visit-dates"></span></p>
+            </div><!--Side Ends-->
+          
+          
+       <div class="picture-catalog">
+    
+               <div>
+                      <div>
+                                                     
+                                <div class="header-overlay">
+                                    <picture class="fade-effect">
+                                      <source srcset="./images/small-central-park_200x124.webp" media="(max-width: 400px )">
+                                      <source srcset="./images/medium-central-park_400x247.webp" media="(max-width: 1000px )">
+                                      <img src="images/large-central-park.webp" alt="Quetzaltenango's Temple" width="665" height="410" loading="lazy" class="image">
                                     </picture>
                                       <div class="overlay overlayBottom">
                                           <div class="img-text">
-                                            <h3>Lorem, ipsum.</h3>
-                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                            </div>
-                            
-
-                  </div>
-
-                  <div>
-                      
-                          <div class="header-overlay fade-effect">
-                            <picture>
-                              <source srcset="./images/small-volcano_350-263.webp" media="(max-width: 400px )">
-                              <source srcset="./images/medium-volcano_600x450.webp" media="(max-width: 1000px )">
-                              <img src="images/large-volcano.webp" alt="Santa Maria Volcano" width="1024" height="768" loading="lazy" class="image">
-                            </picture>
-                              <div class="overlay overlayBottom">
-                                  <div class="img-text">
-                                    <h3>Lorem, ipsum.</h3>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
-                                  </div>
-                              </div>
-                          </div>
-                                  
-                          <div class="header-overlay fade-effect">
-                            <picture>
-                              <source srcset="./images/small-almolonga_300x202.webp" media="(max-width: 400px )">
-                              <source srcset="./images/medium-almolonga_600x404.webp" media="(max-width: 1000px )">
-                              <img src="images/large-almolonga_866x583.webp" alt="Local Market" width="866" height="583" loading="lazy" class="image">
-                            </picture>
-                                      <div class="overlay overlayBottom">
-                                          <div class="img-text">
-                                            <h3>Lorem, ipsum.</h3>
-                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
+                                              <h3>Lorem, ipsum.</h3>
+                                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
                                           </div>
                                       </div>
                                 </div>
-
-                  </div>
-
-                  <div>
-                      
-                              <div class="header-overlay fade-effect">
-                                  <picture >
-                                    <source srcset="./images/small_cerro-el-baul_1_300x225.webp" media="(max-width: 400px )">
-                                    <source srcset="./images/medium_cerro-el-baul_600x450.webp" media="(max-width: 1000px )">
-                                    <img src="images/large_cerro-el-baul.webp" alt="Quetzaltenango's Temple" width="665" height="410" loading="lazy" class="image">
-                                  </picture>
-                                    <div class="overlay overlayBottom">
-                                        <div class="img-text">
-                                          <h3>Lorem, ipsum.</h3>
-                                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
-                                        </div>
-                                    </div>
-                              </div>
-                              <div class="header-overlay fade-effect">
-                                <picture class=>
-                                  <source srcset="./images/small_mirador_300x200.webp" media="(max-width: 400px )">
-                                  <source srcset="./images/medium_mirador_600x399.webp" media="(max-width: 1000px )">
-                                  <img src="images/large_mirador.webp" alt="View of Xela" width="1008" height="671" loading="lazy" class="image">
+                                <div>
+                                      <div class="header-overlay">
+                                        <picture class="fade-effect">
+                                          <source srcset="./images/small-fantastic-santa-maria_250x161.webp" media="(max-width: 400px )">
+                                          <source srcset="./images/medium-fantastic-santa-maria_400x257.webp" media="(max-width: 1000px )">
+                                          <img src="images/large-fantastic-santa-maria.webp" alt="Santa Maria View" width="804" height="516" loading="lazy" class="image">
+                                        </picture>
+                                          <div class="overlay overlayBottom">
+                                              <div class="img-text">
+                                                <h3>Lorem, ipsum.</h3>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                </div>
+                                
+    
+                      </div>
+    
+                      <div>
+                          
+                              <div class="header-overlay">
+                                <picture class="fade-effect">
+                                  <source srcset="./images/small-volcano_350-263.webp" media="(max-width: 400px )">
+                                  <source srcset="./images/medium-volcano_600x450.webp" media="(max-width: 1000px )">
+                                  <img src="images/large-volcano.webp" alt="Santa Maria Volcano" width="1024" height="768" loading="lazy" class="image">
                                 </picture>
                                   <div class="overlay overlayBottom">
                                       <div class="img-text">
@@ -273,22 +234,59 @@
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
                                       </div>
                                   </div>
-                            </div>
-
-                   </div>
-            </div>
-    </div><!--Picture Catalog Ends-->
-
-</div>
-</main> 
-
+                              </div>
+                                      
+                              <div class="header-overlay">
+                                <picture class="fade-effect">
+                                  <source srcset="./images/small-almolonga_300x202.webp" media="(max-width: 400px )">
+                                  <source srcset="./images/medium-almolonga_600x404.webp" media="(max-width: 1000px )">
+                                  <img src="images/large-almolonga_866x583.webp" alt="Local Market" width="866" height="583" loading="lazy" class="image">
+                                </picture>
+                                          <div class="overlay overlayBottom">
+                                              <div class="img-text">
+                                                <h3>Lorem, ipsum.</h3>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
+                                              </div>
+                                          </div>
+                                    </div>
     
+                      </div>
     
+                      <div>
+                          
+                                  <div class="header-overlay">
+                                      <picture class="fade-effect">
+                                        <source srcset="./images/small_cerro-el-baul_1_300x225.webp" media="(max-width: 400px )">
+                                        <source srcset="./images/medium_cerro-el-baul_600x450.webp" media="(max-width: 1000px )">
+                                        <img src="images/large_cerro-el-baul.webp" alt="Quetzaltenango's Temple" width="665" height="410" loading="lazy" class="image">
+                                      </picture>
+                                        <div class="overlay overlayBottom">
+                                            <div class="img-text">
+                                              <h3>Lorem, ipsum.</h3>
+                                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
+                                            </div>
+                                        </div>
+                                  </div>
+                                  <div class="header-overlay">
+                                    <picture class=fade-effect>
+                                      <source srcset="./images/small_mirador_300x200.webp" media="(max-width: 400px )">
+                                      <source srcset="./images/medium_mirador_600x399.webp" media="(max-width: 1000px )">
+                                      <img src="images/large_mirador.webp" alt="View of Xela" width="1008" height="671" loading="lazy" class="image">
+                                    </picture>
+                                      <div class="overlay overlayBottom">
+                                          <div class="img-text">
+                                            <h3>Lorem, ipsum.</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi perferendis voluptatum maiores nostrum iste qui aperiam eveniet ad. Praesentium iste molestiae adipisci a nobis quis facere illo voluptas assumenda!</p>
+                                          </div>
+                                      </div>
+                                </div>
     
+                       </div>
+                </div>
+        </div><!--Picture Catalog Ends-->
     
-    
- <!----------Contents , Currentevents, Spotlights----------------------------------->   
-     
+    </div>
+    </main> 
     <!----------------------- Footer Section -------------------------------------------->
            <footer>
                 <!-- footer content goes here -->
@@ -296,7 +294,14 @@
                  <div class="row">
                    
                     <div class="col">
-                        <img src="images/logo3.png" alt="Chamber Logo" class="logofooter">
+
+                      <picture>
+                        <source srcset="images/small_footer_logo3.webp" media="(max-width: 500px )">
+                        <source srcset="images/medium_footer_logo3_200x100.webp" media="(max-width: 1000px )">
+                        <img src="images/large_footer_logo3_300x150.webp" alt="Logo Xela Chamber" width="300" height="150">
+            
+                    </picture>
+                        
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, hic! Enim at, 
                         officiis ullam quos distinctio sunt autem cumque deleniti doloremque ea eveniet vitae. 
                         Dicta obcaecati cum molestiae tempore consequuntur!</p>
