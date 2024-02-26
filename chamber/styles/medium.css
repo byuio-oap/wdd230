@@ -56,6 +56,16 @@
     background: none;
     color:rgb(20, 19, 19);
    }
+   .slide-content{
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+   .slide-details h1 {
+  
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+
    #slides{
     z-index: 0;
    }
