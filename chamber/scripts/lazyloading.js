@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const lazyImages = document.querySelectorAll(".header-overlay img");
+    const lazyImages = document.querySelectorAll(".fade-effect img");
+    
 
     const lazyLoad = function (entries, observer) {
         entries.forEach((entry) => {
@@ -13,10 +14,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const imageObserver = new IntersectionObserver(lazyLoad, {
         rootMargin: "0px",
-        threshold: 0.1,
+        threshold: 0.5,
     });
 
     lazyImages.forEach((img) => {
         imageObserver.observe(img);
     });
+    
 });
