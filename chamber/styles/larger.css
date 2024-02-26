@@ -166,7 +166,9 @@
 .spotlight3{
   grid-column: 1/9;
 }
-
+.spotlight1 img, .spotlight2 img, .spotlight3 img{
+  object-fit: contain;
+}
 /*Discover*/
 .discover-container{
   display: grid;

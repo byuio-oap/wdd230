@@ -81,11 +81,11 @@
           height: 81px;
           align-content: center;
           width: 100%;
-          color: rgb(13, 67, 115);
+          color: #000000;
           
   }
   .logo img {
-      height: 80px;
+      object-fit: contain;
       margin-right: 50px;
   }
   .logotext{
@@ -117,7 +117,7 @@
   a.active,a:hover{
       
       transition: .5s;
-      color:rgba(252, 136, 4, 0.945);
+      color:#653601;
       font-weight: bolder;
   }
   .checkbtn{
@@ -221,7 +221,7 @@
   font-size: 1.3rem;
   padding: 0.5em 0.5em;
   margin-top: 0.5rem;
-  color:rgba(12, 12, 12, 0.945);
+  color:#000000;
   margin-bottom: 0.5rem;
   
 
@@ -390,6 +390,8 @@
 
 .slide-content img {
   width: 100%;
+  height: 100%;
+  object-fit: scale-down;
   padding: 20px;
 }
 #slides .slide {
@@ -493,7 +495,7 @@
  .spotlight2{
   grid-column: 4/6;
   border: 1px solid rgb(146, 144, 144);
-  background-color: rgb(160, 180, 194);
+  background-color:rgb(195, 199, 200);;
     
    }
 .spotlight3{
@@ -502,16 +504,16 @@
     background-color: rgb(195, 199, 200);
      }
 
- .spotlight1 img{
-    width: 100%;
- }
- .spotlight2 img{
-  width: 100%;
+.spotlight-button{
+  background-color: white;
+  text-align: center;
+}     
 
-}
-.spotlight3 img{
+.spotlight1 img, .spotlight2 img, .spotlight3 img{
   width: 100%;
+  object-fit: scale-down;
 }
+ 
 
  .spotlight-content{
   display: flex;
