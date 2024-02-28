@@ -39,6 +39,7 @@ th,td{
 }
 td{
     font-size: 20px;
+    text-align: center;
 }
 tr:nth-child(6){
     background-color: var(--foredark);
