@@ -592,7 +592,7 @@
       text-decoration: none;
       color: white;
     }
-    form{
+    .indexform{
       padding-bottom: 15px;
       display: flex;
       align-items: center;
@@ -601,25 +601,25 @@
       margin-bottom: 50px;
 
     }
-form .fa{
+.indexform .fa{
   font-size: 18px;
   margin-right: 10px;
 
 }
-form input{
+.indexform input{
   width: 100%;
   background: transparent;
   color: white;
   border: 0;
   outline: none;
 }
-form button{
+.indexform button{
   background: transparent;
   border: 0px;
   outline: none;
   cursor: pointer;
 }
-form button .fa{
+.indexform button .fa{
   font-size: 16px;
   color: #ccc;
 }

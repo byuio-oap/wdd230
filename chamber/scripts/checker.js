@@ -32,6 +32,44 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function displayMessage(message) {
-    const sidebarContent = document.querySelector(".visit-dates");
+    const sidebarContent = document.getElementById('visit-dates');
     sidebarContent.textContent = message;
 }
+/**Check password */
+
+/*const password=document.querySelector("#password");
+const confirmpassword=document.querySelector("#confirmPassword");
+const message=document.querySelector("#passwordMatchMessage");
+
+confirmpassword.addEventListener("focusout",checkPasswordSame);
+
+function checkPasswordSame(){
+    if (password.value !== confirmpassword.value)
+    {
+        message.textContent="Passwords do not match. Please try again.";
+        password.value="";
+        confirmpassword.value="";
+        password.focus();
+
+    } else{
+        message.display="none";
+    }
+}
+
+document.getElementById('email').addEventListener('focusout', function () {
+    validateEmail();
+  });
+
+  function validateEmail(){
+    const emailInput=document.getElementById('email');
+    const emailError = document.getElementById('passwordMatchMessage');
+
+    if (!emailInput.checkValidity()) {
+        emailError.textContent = "Please enter a valid byui.edu email address.";
+      } else {
+        emailError.textContent = "";
+      }
+
+  }*/
+
+
