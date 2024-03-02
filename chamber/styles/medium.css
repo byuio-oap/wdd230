@@ -54,7 +54,7 @@
    }
    .action a:hover,a.active{
     background: none;
-    color:rgb(20, 19, 19);
+    color:yellow;
    }
    .slide-content{
     display: grid;
