@@ -193,6 +193,36 @@
   footer{
     bottom: unset;
   }
+
+
+/* ----------------Join Us Page---------------- */
+#joinus-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 0 2%;
+  
+
 }
+
+#benefits .detail-levels {
+  padding-left: 1rem;
+  margin-top: 0;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
  
 

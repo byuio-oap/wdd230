@@ -806,4 +806,94 @@ hr{
 .header-overlay:hover .overlayBottom{
   height: 25%;
 }
+/*join us large view*/
+#joinus-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0 2%;
+}
+.wf2 fieldset{
+  margin: 2rem 0;
+  border: 1px solid #0076b2;
+  border-radius: 6px;
+  padding: 0.5rem 2%;
+  
+} 
+.wf2 legend{
+  color: #445ba9;
+  padding: 0.5rem;
+}
+.wf2 label{
+  display: block;
+  padding-top: 1rem;
+  color:rgb(13, 67, 115);
+  font-size: 0.9rem;
+}
+.wf2 input[type="text"],
+.wf2 input[type="email"],
+.wf2 input[type="tel"],
+.wf2 textarea,
+.wf2 select
+{
+    background-color:#eee;
+    display: block;
+    border:  solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
 
+
+.wf2 textarea {
+  height: 8rem;
+}
+.wf2 input[type="submit"]{
+  border: none;
+  background-image: linear-gradient(#082953c5,#0a1d44);
+  color: #fff;
+  border-radius: 6px;
+  padding: .8rem;
+  width: 96%;
+  max-width: 400px;
+  margin: -1rem 2% 2rem 2%;
+  box-shadow: 1px 1px 4px #999;
+
+}
+
+.wf2 input:required{
+  border-left: solid 8px red;
+}
+.wf2 input:required:valid{
+  border-left: solid 8px rgb(13, 67, 115);
+}
+
+#benefits {
+  border: 1px solid #0076b2;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 6px 20px 0 rgb(0 0 0 / 15%);
+  margin-top: 3rem;
+  height: 44%;
+
+}
+
+#benefits h4 {
+  margin-bottom: 0.5rem;
+}
+
+#benefits h5 {
+  font-size: 0.9rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+#benefits .detail-levels {
+  padding-left: 1rem;
+  margin-top: 0;
+  
+
+}

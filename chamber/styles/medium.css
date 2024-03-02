@@ -112,7 +112,26 @@ s
         display: grid;
         grid-template-columns: 1fr;
         
-      }
+      }/*------------  FORM  -------------*/
+  
+/*join us*/
+  #joinus-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 2%;
+  
+  }
+  #benefits{
+    height: 100%;
+    margin-top: 0.5rem;
+    
+  }
+  #benefits .detail-levels {
+    padding-left: 1rem;
+    margin-top: 0;
+  }
+
 
     
     }
