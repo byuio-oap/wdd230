@@ -1,0 +1,269 @@
+
+*{
+  box-sizing: border-box;
+}
+body {
+    
+    margin: 0px;
+    padding: 0px;
+    /*font-family: 'Montserrat Alternates', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+     /* Minimum height of the viewport */
+}
+
+header{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    text-align: center;
+    background-color: rgb(12, 54, 88);
+    color:rgb(247, 246, 246);
+    font-size: 13px;
+    width: 100%;
+    height: auto;
+    }
+header picture img{
+    width: 60%;
+    height: 60%;
+    margin-right: 2px;
+    padding: 1px;
+}
+
+header h1{
+    font-size: 1.9rem;
+    padding: 2px;
+}
+
+
+main {
+    place-items: center; /* Center the main content */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+main h2{
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+/******************Hero Image and Text*********************************************/
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    
+}        
+.herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#ffffff59, #4d5b9700);
+   border: 1px solid rgba(0,0,0,.75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+    /* Buenas */
+}
+
+.herolabel h2 {
+    margin: 0;
+    padding: .1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    /*font-family:"Great Vibes", serif;*/
+}
+/*---------------------------------------------------------------------- */
+
+.card {
+    border: 1px solid #ddd;
+    margin: 20px ;
+    border-radius: 8px;
+    border-color: rgba(44, 40, 38, 0.986);
+    background-color: #fff;
+    width: 95%;
+    color: rgb(12, 12, 12);
+    /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-weight: bold;
+    
+
+}
+.card h3{
+    
+    background-color: rgb(12, 54, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 50px;
+    color: white;
+    
+    
+}
+.card ul {
+    list-style:decimal-leading-zero;
+    color: rgb(3, 3, 14);
+}
+.card ul li a:hover{
+    color:rgb(245, 9, 9);
+}
+.card  p {
+text-align: center;
+}
+.visits{
+    margin-left: 5px;
+    font-size: 1rem;
+}
+
+iframe{
+    width: 95%;
+    overflow: hidden;
+    border-radius: 3%;
+
+}
+
+footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    background-color: rgb(12, 54, 88);
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    
+
+}
+
+#copy{
+    
+grid-column: 1/3;
+    
+    background-color: rgb(12, 54, 88);
+    color:rgb(248, 246, 246);
+    font-weight: bold;
+    
+    
+    
+}
+#name{
+    grid-column: 1/3;
+    background-color: rgb(12, 54, 88);
+    color:rgb(248, 246, 246);
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+
+}
+#country{
+    
+    
+    grid-column: 1/2;
+    background-color: rgb(12, 54, 88);
+    color:rgb(248, 246, 246);
+    font-weight: bold;
+
+
+    
+}
+footer img {
+    grid-column: 2/3;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: rgb(12, 54, 88);
+
+
+    
+}
+#lastModified{
+    
+    grid-column: 1/3;
+    color: rgb(247, 247, 5);;
+    font-weight:bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-color: rgb(12, 54, 88);
+    padding: 0px;
+    margin: 0px;
+
+}
+/*Small View Navigation ----------------------Mobile View*/
+
+
+/*Hamburger Button*/
+
+#menu{
+    font-size: 1.5rem;
+    border: 2px solid rgb(12, 54, 88);;
+    padding: 3px 7px 6px ;
+    background-color: rgb(12, 54, 88);
+    color: rgb(248, 246, 246);
+    position:absolute;
+    top: 0.2rem;
+    right: 0.5rem;
+}
+
+
+#menu::before {
+	content: "☰";/*Menu Icon */
+}
+
+#menu.open::before {
+	content: "❎";/*Menu Icon when cancelled*/
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: rgb(12, 54, 88);
+    color: #fff;
+}
+
+.navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.navigation a:hover{
+    background-color: #faf3f3;
+    font-weight: 700; 
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    
+}
+.navigation > .active {
+    color: rgb(247, 247, 5);
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
+/* just a wayfinding symbol for the user */
+
+.active::before{
+    content: "|";
+    
+}
+.active::after{
+    content: "|";
+    
+}
+
+
+
