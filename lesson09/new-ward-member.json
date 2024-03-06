@@ -1,0 +1,26 @@
+{
+ "ward":{
+ "familyName" : "Perez",
+ "moveIndate" : "4/03/2024",
+ "familyMembers": 3,
+ "visitBishopric":false,
+ "individualsDetail":
+ [
+ {
+    "name": "John Doe",
+    "Gender": "M",
+    "Birdthdate":"November 11 1984"
+ },
+ {
+    "name": "Emily Doe",
+    "Gender": "",
+    "Birdthdate":"November 11 1984"
+ },
+ {
+    "name": "Freddy Doe",
+    "Gender": "M",
+    "Birdthdate":"November 11 1984"
+ }   
+ ] 
+}
+}
