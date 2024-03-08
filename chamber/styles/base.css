@@ -919,6 +919,8 @@ hr{
   background-color: #d3ecf3;
   padding: 1rem;
   border-bottom: 1px  solid rgba(128, 128, 128, 0.295);
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 #businesses .card > div > p {
   font-weight: bold;
@@ -935,7 +937,7 @@ hr{
   max-width: 25%;
   margin-left: 1rem;
   object-fit: contain;
-  max-width: 10rem;
+  max-width: 0rem;
 }
 #businesses .card a {
   display:block;
@@ -953,8 +955,6 @@ hr{
 #menu-lg {
   align-items: center;
 }
-
-
 #menu-lg > button {
   max-width: 1.2rem;
   outline: none;

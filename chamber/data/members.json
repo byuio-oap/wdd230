@@ -1,84 +1,84 @@
 {
   "businesses": [
     {
-      "name": "Proaxive Labs",
-      "logo": "proaxive.png",
-      "address": "1 Idona, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 810-815-6732",
-      "email": "hello@proaxivelabs.com",
-      "website": "https://proaxivelabs.com",
+      "name": "Xelapan",
+      "logo": "xelapan.webp",
+      "address": "Quetzaltenango,Guatemala C.A 09901",
+      "phone": "(502) 7810-8152",
+      "email": "xelapan@xelapan.com",
+      "website": "https://xelapan.com/",
       "level": "Gold",
-      "description": "Proaxive labs is the premiere IT company in Idona that serves businesses of all domains, and has served clients in several parts of the world"
+      "description": "Serving quality bread with responsibility,We are a team committed and proud of our brand, which produces fresh, natural and handmade quality food products, with responsibility. We ensure the updating of our processes, knowledge and trends to satisfy in a profitable way, the needs and tastes of our customers."
     },
     {
-      "name": "MiraFoods",
-      "logo": "mirafoods.jpg",
-      "address": "2 Idona, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 807-3456-0909",
-      "email": "info@mirafoods.com",
-      "website": "https://mirafoods.com",
+      "name": "Xela Hornos",
+      "logo": "xelahornos.webp",
+      "address": "Diagonal 2, 25-47 Zona 3, Quetzaltenango,Guatemala C.A 09901",
+      "phone": "(502) 7910-8152",
+      "email": "info@xelahornos.com",
+      "website": "https://xelahornos.com",
       "level": "Silver",
-      "description": "At Mirafoods, we think differently and act boldly. We build our name on providing generations of families with wholesome great – tasting food."
+      "description": "In our companies we advise you from the choice of the best equipment to the training with highly qualified personnel."
     },
     {
-      "name": "Ahmed Intergated Farms",
-      "logo": "ahmed.jpg",
-      "address": "12 Idokunusi Street, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 855-1211-0989",
-      "email": "info@ahmedfarms.com",
-      "website": "https://aifarms.com",
+      "name": "Alamo",
+      "logo": "Alamo.webp",
+      "address": "Quetzaltenango,Guatemala C.A 09901",
+      "phone": "(502) 6810-8152",
+      "email": "info@transportesalamo.com",
+      "website": "https://www.transportesalamo.com/",
       "level": "Silver",
-      "description": "Ahmed Integrated Farms is into Poultry, Fish Farming (eggs, meat,day old chicks,fingerlings and grow-out) and animal Husbandry and sales of Farmlands land and facilities."
+      "description": "Whatever our destination is, ours is your peace of mind, Transportes Alamo has safety standards to make your trip pleasant and reliable with our safety protocols."
     },
     {
-      "name": "Auto Auction Mall",
-      "logo": "auction.png",
-      "address": "2 Idokunusi Street, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 855-1121-3244",
-      "email": "info@auctionmall.com",
-      "website": "https://auctionmall.com",
+      "name": "D' Los Altos",
+      "logo": "delosaltoschocolate_300x345.webp",
+      "address": "12 av. 3-28 zona Quetzaltenango, Quetzaltenango Guatemala, C.A.",
+      "phone": "(502) 3817-1646",
+      "email": "chocolatedelosaltos@gmail.com",
+      "website": "https://www.chocolatedelosaltos.com/",
       "level": "Silver",
-      "description": "We have one all-consuming passion here at Auto Auction Mall: to help people save money and live better. We do this by helping regular people access exclusive U.S. dealer auctions."
+      "description": "Experience a Quetzaltec tradition in an interactive tour where you can learn about the history of cocoa and chocolate in Guatemala, create your own cup chocolate from the cocoa bean in an interactive process with the grinding stone. Taste our flavors. Visit our chocolate and handicraft store.."
     },
     {
-      "name": "RealHomes Limited",
-      "logo": "homes.jpg",
-      "address": "27 Idona, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 807-2222-0301",
-      "email": "info@realhomes.com",
-      "website": "https://realhomes.com",
+      "name": "Neta Informatica",
+      "logo": "neta.webp",
+      "address": "14 avenida 3-65 zona 3, Quetzaltenango, Guatemala",
+      "phone": "(502) 7810-8152",
+      "email": "ventas@netainfomatica.com",
+      "website": "https://netainformatica.com/",
       "level": "Gold",
-      "description": "RealHomes LTD is a Real Estate Organisation that provides high level expertise in Real estate Services. Our Areas of specialization includes property Development, Sales and Services & Consulting."
+      "description": "el EQUILIBIRO perfecto SI existe te AYUDAMOS en la compra de tecnología y RESOLVEMOS los problemas que tengas.SIEMPRE BUENAS PROMOS!!!"
     },
     {
-      "name": "BluePower Overseas Ltd",
-      "logo": "bluepower.jpg",
-      "address": "27 Idona, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 701-1211-5555",
-      "email": "info@bluepoweroverseas.com",
-      "website": "https://bluepoweroverseas.com",
+      "name": "Agroalsa",
+      "logo": "Agroalsa.webp",
+      "address": "Quetzaltenango,Guatemala C.A 09901",
+      "phone": "(502) 7810-8152",
+      "email": "info@fertilizanteagricola.com",
+      "website": "https://www.fertilizanteagricola.com/",
       "level": "Gold",
-      "description": "BluePower Overseas Limited is a leading technology company delivering bespoke sustainable Solar energy, power Systems solutions and turnkey projects across various sectors of the Nigerian economy ."
+      "description": "We have been insuring your crop for more than 25 years. At Agroalsa we make sure that your crop has everything it needs to grow and obtain an optimal yield"
     },
     {
-      "name": "Daveni Tours Ltd",
-      "logo": "daveni.png",
-      "address": "33 Idona, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 800-0050-5555",
-      "email": "info@davenipartners.com",
-      "website": "https://davenipartners.com",
+      "name": "SportTown",
+      "logo": "sporttown.webp",
+      "address": "Quetzaltenango,Guatemala C.A 09901",
+      "phone": "(502) 7810-8152",
+      "email": "info@sporttown.com",
+      "website": "https://sporttown.com",
       "level": "Gold",
-      "description": "Daveni empowers high net worth individuals and families to become global citizens by investing in a second residence or citizenship and helps transform their dreams into reality through highly personalized products and services."
+      "description": "Fitness center where we help you improve your physical and mental health.Be part of our community."
     },
     {
-      "name": "Budget Law Ltd",
-      "logo": "budget-law.svg",
-      "address": "7 Idona, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 705-1000-1000",
-      "email": "hello@budgetlaw.com",
-      "website": "https://budgetlaw.com",
+      "name": "Hermanos Copher",
+      "logo": "hermanoscopher.webp",
+      "address": "Quetzaltenango,Guatemala C.A 09901",
+      "phone": "(502) 2207-9999",
+      "email": "hello@hermanoscopher.com",
+      "website": "https://www.hermanoscopher.com/",
       "level": "Gold",
-      "description": "BudgetLaw is established by a team of lawyers with a passion and dedication to cater to needs for quality legal services. Our lawyers have experience and technical know-how to deliver quality litigation."
+      "description": "New Car parts, certified services and maintainance"
     }
   ]
 }
