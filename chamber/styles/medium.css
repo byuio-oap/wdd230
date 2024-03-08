@@ -131,8 +131,23 @@ s
     padding-left: 1rem;
     margin-top: 0;
   }
+/*Directory*/
 
+#directory {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
 
+#businesses{
+  padding: 0.3rem 1rem;
+}
+#businesses p{
+  font-size: 0.9rem;
+}
+#businesses.grid{
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+}
     
     }
     

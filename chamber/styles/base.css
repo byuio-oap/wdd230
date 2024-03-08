@@ -897,3 +897,82 @@ hr{
   
 
 }
+/*Directory*/
+
+
+#directory {
+  padding-left: 12rem;
+  padding-right: 12rem;
+  margin-bottom: 2rem;
+}
+#businesses h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+#businesses p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+#businesses .card {
+  background-color: #d3ecf3;
+  padding: 1rem;
+  border-bottom: 1px  solid rgba(128, 128, 128, 0.295);
+}
+#businesses .card > div > p {
+  font-weight: bold;
+}
+#businesses .card > div div {
+  display: flex;
+  align-items: flex-start;
+}
+#businesses .card > div div p {
+  margin-bottom: 0.5rem;
+}
+
+#businesses .card > div div img {
+  max-width: 25%;
+  margin-left: 1rem;
+  object-fit: contain;
+  max-width: 10rem;
+}
+#businesses .card a {
+  display:block;
+  margin-top: 0.5rem;
+  position: relative;
+}
+#businesses .card p:last-child {
+  margin-top: 1rem;
+}
+#directory > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+#menu-lg {
+  align-items: center;
+}
+
+
+#menu-lg > button {
+  max-width: 1.2rem;
+  outline: none;
+  border: 0;
+  margin-left: 0.7rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+#menu-lg button img {
+  max-width: 100%;
+}
+
+
+#businesses.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+#businesses.grid .card > div div img {
+  max-width: 7rem;
+}

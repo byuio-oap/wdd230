@@ -110,11 +110,26 @@ main h2{
     
     
 }
-.card ul {
-    list-style:decimal-leading-zero;
+#ulcards ul {
+    display: flex;
+    list-style:none ;
+   /* list-style:decimal-leading-zero;*/
     color: rgb(3, 3, 14);
+    align-items: center;
+    margin: 0;
+    height: 1.5rem;
+    font-size: 0.8rem;
+    
+    
+
 }
-.card ul li a:hover{
+#ulcards ul li a {
+    margin-left: 5px;
+    padding: 1px;
+}
+
+
+#ulcards ul li a:hover{
     color:rgb(245, 9, 9);
 }
 .card  p {

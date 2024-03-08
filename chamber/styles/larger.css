@@ -211,7 +211,20 @@
 }
 
 
+#menu-lg {
+  display: none;
+  align-items: center;
+}
+#directory {
+  padding: 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
+#businesses {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 }
 
 
