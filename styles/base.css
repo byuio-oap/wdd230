@@ -96,8 +96,20 @@ main h2{
     /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
     font-weight: bold;
     
+    
 
 }
+.weatherforecast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.8rem;
+}
+#current-temp{
+
+margin-right: 5px;
+}
+
 .card h3{
     
     background-color: rgb(12, 54, 88);
