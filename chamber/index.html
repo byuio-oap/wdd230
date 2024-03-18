@@ -25,9 +25,12 @@
 </head>
 <body>
    
-    
+    <div id="chamberBanner">
+        <span>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</span>
+        <span id="closeButton">❌</span>
+    </div>
     <header>
-<!--Top Bar Address , Email ,Phone,Login----------------------------->        
+<!--Top Bar Address , Email ,Phone,Login-->        
         <div class="top_bar">
            <div class="container">
              <div class="top-bar_info_wr">
@@ -36,21 +39,42 @@
                     <li><i class="fa fa-envelope"></i><span>xecc@xelachamber.com.gt</span></li>
                     <li><i class="fa fa-phone">502-54338708/502-43952376</i><span></span></li>
                     <li><button class="login_button">Login</button></li>
-                    
                 </ul>
-               
+                
+                
              </div>
+            
            </div>
+           
         </div>
       <div class="bottom_bar">
-<!--Weather------------------------------------------------------------->
+<!--Weather-->
         <div class="weather-container">
-                <div class="temp">
+              
+            <table>
+                <thead>
+                  <tr>
+                    <th colspan="2">Today's Weather</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Currently:</td>
+                    <td id="desc">...</td>
+                  </tr>
+                  <tr>
+                    <td>Tempreature:</td>
+                    <td><span id="temp">...</span></td>
+                  </tr>
+                
+                </tbody>
+              </table>
+             <!--<div class="temp">
                   <span>Temperature:</span>
                   <h3 id="temperature">72</h3>
-                  <h4>°F</h4>
+                  <h4>°F</h4>-->
                   <!--<i class="fa fa-sun-o"></i>-->
-                </div>
+              <!--  </div>
                 <div class="windspeed">
                     <span>Speed:</span>
                     <h3 id="wind-speed">5.0</h3>
@@ -60,23 +84,24 @@
                 <div class="windchill" >
                     <span>Chill:</span>
                     <h3 id="wind-chill">N/A</h3>
-                </div>
+                </div>-->
          </div>
         
          
 
 
-<!----Logo Xeal Chamber of Commerce-------------------------------------->             
+<!--Logo Xeal Chamber of Commerce-->             
 
         <div class="logo"> 
             <picture>
-                <source srcset="images/small_logo_150x67.webp" media="(max-width: 500px )">
-                <source srcset="images/medium_logo_250x112.webp" media="(max-width: 1000px )">
-                <img src="images/large_logo_300x134.webp" alt="Logo Xela Chamber" width="300" height="134">
+                <source srcset="images/small_logo_200x89.webp" media="(max-width: 500px )">
+                <source srcset="images/medium_logo_205x92.webp" media="(max-width: 1000px )">
+                <img src="images/large_logo_210x94.webp" alt="Logo Xela Chamber" width="210" height="94">
     
             </picture>
             
         </div>
+        
 
         <nav>
                <input type="checkbox" id="check"> 
@@ -96,7 +121,7 @@
     
     </header>    
           
-<!------Hero Image and Detail-------------------------------------------->
+<!--Hero Image and Detail-->
     <section class="hero-container">
         <div class="hero">
             <picture>
@@ -121,9 +146,15 @@
     
     
     
- <!----------Contents , Currentevents, Spotlights----------------------------------->   
+ <!--Contents , Currentevents, Spotlights-->   
      <main class="content-container">
- <!--Current Events------------------------------------------------------------------>              
+ <!--Current Events-->   
+ 
+ <!--WEather forcast-->
+ <section id="forecast">
+        <div class="forecast-box"></div>
+  </section>
+
 <section class="currentevents">
             <div id="slider">
                 <input type="radio" name="slider" id="slide1" checked>
@@ -232,7 +263,7 @@
         
 
         
-<!------------------------------------- Company Spotlights Section ---------------------->
+<!-- Company Spotlights Section -->
          <section class="spotlight-container">
                     <div class="spotlight1">
                         <picture>
@@ -293,7 +324,7 @@
                     
                 </section>
             </main>
-    <!----------------------- Footer Section -------------------------------------------->
+    <!--Footer Section-->
     <footer>
         <!-- footer content goes here -->
         
@@ -358,8 +389,8 @@
             
             
             <script src="scripts/getdates.js"></script>
-            <script src="scripts/windchill.js"></script>
-            
+            <!--<script src="scripts/windchill.js"></script>-->
+            <script src="scripts/weather.js"></script>
 
         
         

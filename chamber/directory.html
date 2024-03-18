@@ -22,8 +22,6 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/form.css">
-    
 </head>
 <body>
    
@@ -71,13 +69,13 @@
 <!--Logo Xeal Chamber of Commerce-->             
 
 <div class="logo"> 
-    <picture>
-        <source srcset="images/small_logo_200x89.webp" media="(max-width: 500px )">
-        <source srcset="images/medium_logo_205x92.webp" media="(max-width: 1000px )">
-        <img src="images/large_logo_210x94.webp" alt="Logo Xela Chamber" width="210" height="94">
+  <picture>
+      <source srcset="images/small_logo_200x89.webp" media="(max-width: 500px )">
+      <source srcset="images/medium_logo_205x92.webp" media="(max-width: 1000px )">
+      <img src="images/large_logo_210x94.webp" alt="Logo Xela Chamber" width="210" height="94">
 
-    </picture>
-    
+  </picture>
+  
 </div>
 
         <nav>
@@ -87,57 +85,37 @@
             </label>
            
             <ul>
-                <li><i class="fa fa-home fa-lg"></i><a href="./index.html">Home</a></li>
+                <li><i class="fa fa-home fa-lg"></i><a  href="./index.html">Home</a></li>
                 <li><i class="fa fa-binoculars " aria-hidden="true"></i><a href="./discover.html" >Discover</a></li>
-                <li><i class="fa fa-folder "></i><a href="">Directory</a></li>
-                <li><i class="fa fa-users"></i><a href="">Join us</a></li>
-                <li><i class="fa fa-sign-in fa-lg"></i><a class="active" href="./form.html">Sign Up</a></li>
+                <li><i class="fa fa-folder "></i><a class="active" href="./directory.html">Directory</a></li>
+                <li><i class="fa fa-users"></i><a href="./join.html">Join us</a></li>
+                <!--<li><i class="fa fa-sign-in fa-lg"></i><a href="./form.html">Sign Up</a></li>-->
             </ul>
         </nav>
       </div>
     
-    </header>   
+    </header>    
     <main>
-
-        <div id="passwordMatchMessage"></div>
-        <form action="record.html" method="get" class="wf1">
-            
-            <fieldset>
-
-                        <legend>Login Credentials</legend>
-                        <label>Username:*<input type="text" name="username" id="userid" required></label>
-                        <label>Password:*<input type="password" name="passwd" id="password" required pattern="[A-Za-z0-9]{8,}" title="Must be at least 8 characters long and alphanumeric" placeholder="Must be at least 8 characters long and alphanumeric"></label>
-                        <label>Re-enter Password:*<input type="password" name="passwd2" id="confirmPassword" required></label>
-                       
-                        <label> Email*<input type="email" id="email" name="email" placeholder="Your byui email address" title="A valid byui.edu email address."  pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
-            </fieldset>            
-            <fieldset>
-                <legend>Page Rating</legend>
-                
-                <div id="rangevalue">0</div>
-                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
-                <datalist id="rangevalues">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                </datalist>
-            </fieldset>
-              
-            <input type="submit" value="Sign Up">
-            </form>
-
-    </main> 
     
-    
-    <!-- Footer Section -->
+      
+          
+      <section id="directory">
+      <div>
+        <h2>Members: </h2>
+        <div id="menu-lg">
+          <button id="list-btn">
+            <img src="images/list.svg" alt="list view">
+          </button>
+          <button id="grid-btn">
+            <img src="images/grid.svg" alt="grid view">
+          </button>
+        </div>
+      </div>
+      <div id="businesses"></div>
+    </section>
+
+      </main>  
+
     <footer>
         <!-- footer content goes here -->
         
@@ -203,7 +181,7 @@
             
             <script src="scripts/getdates.js"></script>
             <script src="scripts/windchill.js"></script>
-            <script src="scripts/form.js"></script>
+            <script src="scripts/directory.js"></script>
             
 
         
