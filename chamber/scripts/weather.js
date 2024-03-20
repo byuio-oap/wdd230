@@ -7,23 +7,6 @@ const urlForecast ='https://api.openweathermap.org/data/2.5/forecast?lat=14.85&l
 
 
 
-
-
-//Show and hide banner
-
-document.addEventListener('DOMContentLoaded', function() {
-      var fecha=new Date();
-      var todayDayNumber=fecha.getDay();
-      if (todayDayNumber>=1 && todayDayNumber<=3) {
-        document.getElementById("chamberBanner").style.display="block";
-        
-      }
-
-});
-
-document.getElementById("closeButton").addEventListener("click", function() {
-  document.getElementById("chamberBanner").style.display = "none";
-});
   
 
 // Fetch weather From appi
@@ -47,6 +30,11 @@ function displayResults(data) {
 
   document.getElementById("desc").textContent = data.weather[0].description;
   document.getElementById("temp").textContent = `${data.main.temp.toFixed(0) + "\xB0F"}`;
+  const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+  let capDesc=data.weather[0].description;
+  weatherIcon.setAttribute('src', iconsrc);
+   weatherIcon.setAttribute('alt', capDesc);
+
   
 
 }
@@ -66,6 +54,28 @@ async function apiFetchForecast() {
   }
 }
 apiFetchForecast();
+
+
+const weatherIcon = document.querySelector('#weather-icon');
+
+
+//Show and hide banner----------------------------------------
+
+document.addEventListener('DOMContentLoaded', function() {
+      var fecha=new Date();
+      var todayDayNumber=fecha.getDay();
+      if (todayDayNumber>=1 && todayDayNumber<=3) {
+        document.getElementById("chamberBanner").style.display="block";
+        
+      }
+
+});
+
+document.getElementById("closeButton").addEventListener("click", function() {
+  document.getElementById("chamberBanner").style.display = "none";
+});
+
+//---------------------------------------------------------------
 
 //Display 3 day forecast starting tommorow
 function displayForecastResults(data){

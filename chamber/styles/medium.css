@@ -14,6 +14,12 @@
         margin-right: 20px;
     }  
 
+    #desc , #temp{
+      background-color: rgb(13, 67, 115);
+      color: white;
+      padding: 6px;
+    }
+
     nav{
         width: 65%;
       }

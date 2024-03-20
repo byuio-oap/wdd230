@@ -68,14 +68,33 @@
   .bottom_bar{
     grid-column: 1/4;
     display: flex;
+    align-items: center;
   }
   .logo{
       display: flex;
       background-color: rgb(255, 255, 255);   
       width: 100%;
-      justify-content: right;
+      justify-content: space-evenly;
+      align-items: center;
       
+     
+  
   }
+  .tday_weather{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+  #weather-icon{
+    background-color: #0076b2;
+    padding: 1px;
+  }
+  #desc , #temp{
+    background-color: rgb(13, 67, 115);
+    color: white;
+    padding: 17px;
+  }
+  
   nav{
     background-color: rgb(255, 255, 255);      
           height: 81px;
@@ -98,7 +117,7 @@
   }
   
   nav ul{
-      float: left;
+      float:right;
       margin-right: 20px;
   }
   nav ul li{
@@ -252,6 +271,8 @@
   grid-column: 1/2;
    display: grid;
   /*grid-template-columns: auto auto auto;*/
+  grid-template-columns: repeat(3, minmax(75px, 1fr));
+
   margin-left: 5px;
   font-size: small;
   background-color:rgb(13, 67, 115);

@@ -42,26 +42,11 @@
              </div>
            </div>
         </div>
+
+
       <div class="bottom_bar">
 <!--Weather-->
-        <div class="weather-container">
-                <div class="temp">
-                  <span>Temperature:</span>
-                  <h3 id="temperature">72</h3>
-                  <h4>°F</h4>
-                  <!--<i class="fa fa-sun-o"></i>-->
-                </div>
-                <div class="windspeed">
-                    <span>Speed:</span>
-                    <h3 id="wind-speed">5.0</h3>
-                    <h4>mph</h4>
-                    
-                </div>
-                <div class="windchill" >
-                    <span>Chill:</span>
-                    <h3 id="wind-chill">N/A</h3>
-                </div>
-         </div>
+
         
          
 
@@ -69,6 +54,13 @@
 <!--Logo Xeal Chamber of Commerce-->             
 
 <div class="logo"> 
+
+  <div class="tday_weather">
+    <img id="weather-icon" src="" alt="">
+    <span id="desc"></span>
+    <span id="temp">...</span>
+
+</div>
   <picture>
       <source srcset="images/small_logo_200x89.webp" media="(max-width: 500px )">
       <source srcset="images/medium_logo_205x92.webp" media="(max-width: 1000px )">
@@ -180,7 +172,7 @@
             
             
             <script src="scripts/getdates.js"></script>
-            <script src="scripts/windchill.js"></script>
+            <script src="scripts/weather.js"></script>
             <script src="scripts/directory.js"></script>
             
 
