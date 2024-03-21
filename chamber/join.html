@@ -38,7 +38,10 @@
                     <li><button class="login_button">Login</button></li>
                     
                 </ul>
-               
+                <div class="toggle-container">
+                    <input type="checkbox" id="dark-mode-toggle" class="toggle-checkbox">
+                    <label for="dark-mode-toggle" class="toggle-label"></label>
+                </div>
              </div>
            </div>
         </div>
@@ -59,9 +62,9 @@
 
     </div>
     <picture>
-        <source srcset="images/small_logo_200x89.webp" media="(max-width: 500px )">
-        <source srcset="images/medium_logo_205x92.webp" media="(max-width: 1000px )">
-        <img src="images/large_logo_210x94.webp" alt="Logo Xela Chamber" width="210" height="94">
+        <source srcset="images/small_logo_200x89.webp" media="(max-width: 500px )" class="changeImageS">
+        <source srcset="images/medium_logo_205x92.webp" media="(max-width: 1000px)" class="changeImageM">
+        <img src="images/large_logo_210x94.webp" alt="Logo Xela Chamber" width="210" height="94" class="changeImageL">
 
     </picture>
     
@@ -181,10 +184,10 @@
             <div class="col">
                 <h3>Links<!--<div class="underline"><span></span></div>--></h3>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Discover</a></li>
-                    <li><a href="">Directory</a></li>
-                    <li><a href="">Join Us</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./discover.html">Discover</a></li>
+                    <li><a href="./directory.html">Directory</a></li>
+                    <li><a href="./join.html">Join Us</a></li>
                     
                 </ul>
             </div>
@@ -216,6 +219,7 @@
             <script src="scripts/getdates.js"></script>
             <script src="scripts/weather.js"></script>
             <script src="scripts/joinus.js"></script>
+            <script src="scripts/toggle.js"></script>
 
         
         
