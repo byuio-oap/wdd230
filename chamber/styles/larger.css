@@ -109,6 +109,7 @@
   .currentevents{
     grid-row: 1/2;
     display: grid;
+    
 }
  
 
@@ -128,6 +129,7 @@
   width: 100%;
   max-width: 100%;
   text-align: center;
+  
 }
 
 #slide1:checked ~ #controls label:nth-child(2),
@@ -145,7 +147,7 @@
      margin: 0 auto;
   }
   #slides .inner{
-    height: 800px;
+    height: 25rem;
     
   }
   .slide-details a{
@@ -158,6 +160,9 @@
   .slide-content{
     display: flex;
     flex-direction: column;
+  }
+  .slide-content img {
+    display: none;
   }
 
 /******************************************************************/

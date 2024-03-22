@@ -514,7 +514,7 @@
 }
 .slide-content{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));  
 }
 .slide-details{
   display: flex;

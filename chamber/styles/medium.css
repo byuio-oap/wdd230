@@ -71,14 +71,18 @@
    }
    .slide-content{
     display: grid;
-    grid-template-columns: 1fr auto;
-  }
-   .slide-details h1 {
+    grid-template-columns: 1fr }
+  
+  
+    .slide-details h1 {
   
   font-size: 1.5rem;
   margin-top: 4rem;
 }
-s
+.slide-content img {
+  display: none;
+}
+
 
    #slides{
     z-index: 0;
