@@ -166,7 +166,9 @@ s
 }  
 
 #hbusinesses{
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
     }

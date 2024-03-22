@@ -16,6 +16,11 @@ fetch('data/members.json')
   })
   .catch(error => console.error('Error fetching data:', error));
 
+
+
+
+  
+
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -31,10 +36,12 @@ function displayBusinesses(businesses) {
     const cardContents = document.createElement("div");
     cardContents.classList.add("card");
 
+    
+
     const businessName = document.createElement("h3");
     businessName.textContent = business.name;
 
-    let businessAddress = document.createElement("p");
+    let businessAddress = document.createElement("h4");
     businessAddress.textContent = business.address;
 
     const businessDescription = document.createElement("p");
@@ -44,7 +51,7 @@ function displayBusinesses(businesses) {
     businessLogo.setAttribute("src", "images/" + business.logo);
     businessLogo.setAttribute("alt", business.name);
 
-    let businessLevelOfMembership = document.createElement("h4");
+    let businessLevelOfMembership = document.createElement("h5");
     businessLevelOfMembership.textContent = "Level: \u0020" + business.level;
     
 
@@ -53,6 +60,8 @@ function displayBusinesses(businesses) {
     cardContents.appendChild(businessDescription);
     cardContents.appendChild(businessLogo);
     cardContents.appendChild(businessLevelOfMembership)
+
+    
 
     businessesContainer.appendChild(cardContents);
   });

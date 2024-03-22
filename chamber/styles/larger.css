@@ -236,6 +236,9 @@
 }
 #hbusinesses{
   grid-template-columns: 1fr;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+
 }
 }
 
