@@ -60,7 +60,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 
 
 //Show and hide banner----------------------------------------
-
+/*
 document.addEventListener('DOMContentLoaded', function() {
       var fecha=new Date();
       var todayDayNumber=fecha.getDay();
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.getElementById("closeButton").addEventListener("click", function() {
   document.getElementById("chamberBanner").style.display = "none";
-});
+});*/
 
 //---------------------------------------------------------------
 
@@ -81,7 +81,6 @@ document.getElementById("closeButton").addEventListener("click", function() {
 function displayForecastResults(data){
   const d=new Date();
   const todayDayNumber=d.getDay();
-  console.log(todayDayNumber);
   const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
     const weatherList=data.list;
@@ -90,7 +89,7 @@ function displayForecastResults(data){
     //iterate 
     weatherList.forEach((weather) => {
       let time=weather.dt_txt;
-      console.log(time);
+      
 
       if (time.includes("18:00:00") && days <3) {
         forecastDayNumber+=1;
@@ -99,7 +98,7 @@ function displayForecastResults(data){
         }
           const forecastItem =document.createElement("div");
           forecastItem.classList="forecast-item";
-          const dayName=document.createElement("h4");
+          const dayName=document.createElement("h3");
 
           dayName.textContent=weekday[forecastDayNumber]
           

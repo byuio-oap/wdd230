@@ -35,6 +35,7 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    
 }
 
 
@@ -91,7 +92,7 @@
     font-size: 14px;
     color:var(--black);
   }
-  .login_button:hover , .wf2 input[type="submit"]{
+  .login_button:hover {
     background:var(--white);
     color:var(--black);
   }
@@ -170,6 +171,7 @@
     background-color: var(--primary-color);;
     color: var(--secondary-color);
     padding: 17px;
+  
   }
   
   nav{
@@ -215,7 +217,7 @@
       font-weight: bolder;
   }
   .checkbtn{
-      font-size: 30px;
+      font-size: 40px;
       color: var(--onlyMenuOptions-color);
        float: right;
       line-height: 80px;
@@ -349,9 +351,8 @@
   grid-template-columns: repeat(3, minmax(75px, 1fr));
 
   margin-left: 5px;
-  font-size: small;
+  font-size: 12px;
   background-color:var(--primary-color);
-  color: yellow;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -412,7 +413,7 @@
   border-right: 0;
 }
 
-.forecast-item h4 {
+.forecast-item h3 {
   background-color:var(--primary-color);;
   padding: 10px;
   margin: 0;
@@ -576,13 +577,13 @@
   background: #00171F;
 }
 #slides .slide_2 {
-  background:var(--primary-color);
+  background:var(--darkblue);
 }
 #slides .slide_3 {
-  background: #007EA7;
+  background: #0c566e;
 }
 #slides .slide_4 {
-  background: #00A8E8;
+  background: #035170;
 }
 #controls {
   margin: -180px 0 0 0;
@@ -605,7 +606,7 @@
 #slide2:checked ~ #controls label:nth-child(3),
 #slide3:checked ~ #controls label:nth-child(4),
 #slide4:checked ~ #controls label:nth-child(1) {
-  background: url(../images/arrowright.png) no-repeat;
+ /* background: url(../images/arrowright.png) no-repeat;*/
   float:right;
   margin: 0 -50px 0 0;
   display: block;
@@ -614,7 +615,7 @@
 #slide2:checked ~ #controls label:nth-last-child(3),
 #slide3:checked ~ #controls label:nth-last-child(4),
 #slide4:checked ~ #controls label:nth-last-child(1) {
-  background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+  /*background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;*/
   float:left;
   margin: 0 0 0 -50px;
   display: block;
@@ -755,6 +756,9 @@
       text-decoration: none;
       color: var(--secondary-color);
     }
+    .col p{
+      font-size: 13px;
+    }
     .indexform-footer{
       padding-bottom: 15px;
       display: flex;
@@ -807,6 +811,7 @@ hr{
 }
 .copyright{
   text-align: center;
+  font-size: 18px;
 }
 /*.underline{
   width: 100%;
@@ -1031,6 +1036,10 @@ hr{
   margin: -1rem 2% 2rem 2%;
   box-shadow: 1px 1px 4px #999;
 
+}
+.wf2 input[type="submit"]:hover{
+  color: var(--white);
+  background-color: var(--darkblue);
 }
 
 .wf2 input:required{

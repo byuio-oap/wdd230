@@ -3,7 +3,7 @@ const directoryPath = "data/members.json";
 async function getbusinesses(){
   const response= await fetch(directoryPath);
   const data = await response.json();
-  /*console.log(data);*/
+
   displayBusinesses(data.businesses);
 }
 getbusinesses();
