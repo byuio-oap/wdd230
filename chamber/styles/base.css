@@ -645,7 +645,13 @@
 
  
 /*---------------------spotlligh---------------------*/
- .spotlight-container{
+
+
+
+
+
+
+.spotlight-container{
   margin-top: 0rem;
     grid-column: 1/4;
     grid-row: 3/4;
@@ -1161,4 +1167,55 @@ hr{
 }
 #businesses.grid .card > div div img {
   max-width: 7rem;
+}
+
+/*spotlight form json file*/
+#hbusinesses{
+  grid-column: 1/3;
+  grid-column: 1/4;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    gap: 1rem;
+    color: var(--onlyTextOptions-color);
+    
+  
+  
+}
+#hbusinesses h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+#hbusinesses .card p{
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+#hbusinesses .card {
+  
+  padding: 1rem;
+  border-bottom: 1px  solid rgba(128, 128, 128, 0.295);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin: 5px;
+  border: 1px solid var(--onlyTextOptions-color);
+  
+  
+}
+
+
+#hbusinesses .card h4 {
+  margin-bottom: 1rem;
+}
+
+#hbusinesses .card img {
+  max-width: 50%;
+  margin-top: 1rem;
+  object-fit: contain;
+  max-width: 6rem;
 }
