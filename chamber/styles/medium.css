@@ -31,8 +31,8 @@
         width: 65%;
       }
 
-    /**---------------------------------------------------------------------**/
-    ul{
+    /*Hamburger Menu*/
+    .menuopciones{
         position:fixed;
         width: 100%;
         height: 100vh;
@@ -47,28 +47,24 @@
         
     }
 
-    nav ul li {
+    nav .menuopciones li {
         display: block;
         margin: 50px;
         line-height: 30px;
         
     }
 
-   nav ul li a{
+   nav .menuopciones li a{
     font-size: 20px;
     color: var(--secondary-color);
    }
-   nav ul li:hover{
-    background-color: var(--secondary-color);
-    color: black;
-   }
-   nav ul li a:hover{
-    color: black;
-   }
-   .action a:hover,a.active{
+   
+   
+   
+   nav .menuopciones li a.active{
     background: none;
-    color:yellow;
-   }
+    color:#FFFF00;}
+    
    .slide-content{
     display: grid;
     grid-template-columns: 1fr }
@@ -87,15 +83,15 @@
    #slides{
     z-index: 0;
    }
-   .spotlight1 h1, .spotlight2 h1,.spotlight3 h1{
+   /*.spotlight1 h1, .spotlight2 h1,.spotlight3 h1{
     font-size: 1.2rem;
-   }
-   #check:checked ~ul{
+   }*/
+   #check:checked ~.menuopciones{
     left: 0;
    }
 
     /**---------------------------------------------------------------------**/
-    nav ul li a{
+    nav .menuopciones li a{
         font-size: 16px;
     }
     .herolabel{
@@ -125,23 +121,33 @@
 
     /*Discover*/
 
-    .discover-container{
+    /*.discover-container{
         display: grid;
         grid-template-columns: 1fr;
         
-      }/*------------  FORM  -------------*/
+      }*/
+
+      .picture-contenedor{
+        grid-template-columns: 1fr;
+      }
+      .img-text p{
+        display: none;
+      }
+      /*------------  FORM  -------------*/
   
 /*join us*/
   #joinus-container{
-    display: grid;
-    grid-template-columns: 1fr;
+    
     gap: 1rem;
     padding: 0 2%;
   
   }
+  
   #benefits{
-    height: 100%;
-    margin-top: 0.5rem;
+    height: 85%;
+    margin-top: 3rem;
+    width: 100%;
+    
     
   }
   #benefits .detail-levels {

@@ -9,7 +9,7 @@
     <title>Chamber of Commerce, Xela</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <!--Favicon Logo-->
     <link rel="icon" href="images/favicon.ico">
     <!-- Facebook Meta Tags-->
@@ -79,7 +79,7 @@
                <i class="fa fa-bars"></i>
             </label>
            
-            <ul>
+            <ul class="menuopciones">
                 <li><i class="fa fa-home fa-lg"></i><a  href="./index.html">Home</a></li>
                 <li><i class="fa fa-binoculars " aria-hidden="true"></i><a href="./discover.html" >Discover</a></li>
                 <li><i class="fa fa-folder "></i><a class="active" href="./directory.html">Directory</a></li>
@@ -91,9 +91,6 @@
     
     </header>    
     <main>
-    
-      
-          
       <section id="directory">
       <div>
         <h2>Members: </h2>
@@ -141,7 +138,7 @@
 
             <div class="col">
                 <h3>Links<!--<div class="underline"><span></span></div>--></h3>
-                <ul>
+                <ul class="ulfooter">
                   <li><a href="./index.html">Home</a></li>
                   <li><a href="./discover.html">Discover</a></li>
                   <li><a href="./directory.html">Directory</a></li>
@@ -154,7 +151,7 @@
                 <h3>Newsletter<!--<div class="underline"><span></span></div>--></h3>
                 <form class="indexform-footer">
                     <i class="fa fa-envelope"></i>
-                    <input type="email" placeholder="Enter your email id" required>
+                    <input type="email" placeholder="Enter your email id" required id="emailfooter">
                     <button type="submit" aria-label="Send Email"><i class="fa fa-arrow-right"></i></button>
                 </form>
                 <div class="social-icons">
@@ -172,12 +169,12 @@
 
         
             <!-- JavaScript code to dynamically populate the current year and last modified date -->
-            
-            
-            <script src="scripts/getdates.js"></script>
-            <script src="scripts/weather.js"></script>
-            <script src="scripts/directory.js"></script>
             <script src="scripts/toggle.js"></script>
+            <script src="scripts/weather.js"></script>
+            <script src="scripts/getdates.js"></script>
+            
+           <script src="scripts/directory.js"></script>
+            
             
 
         

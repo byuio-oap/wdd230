@@ -1,3 +1,6 @@
+
+
+
 const directoryPath = "data/members.json";
 
 async function getbusinesses(){

@@ -76,7 +76,7 @@
                <i class="fa fa-bars"></i>
             </label>
            
-            <ul>
+            <ul class="menuopciones">
                 <li><i class="fa fa-home fa-lg"></i><a  href="./index.html">Home</a></li>
                 <li><i class="fa fa-binoculars " aria-hidden="true"></i><a href="./discover.html" >Discover</a></li>
                 <li><i class="fa fa-folder "></i><a href="./directory.html">Directory</a></li>
@@ -90,63 +90,63 @@
     <main class="main-container">
         <section id="joinus-container">
          
-            <form action="thankyou.html" method="get" class="wf2">
+            <form action="thankyou.html" method="get" class="wf2" id="joinform">
             
-            <fieldset>
+                                    <fieldset>
 
-                        <legend>Your Information</legend>
-                        <label>First name:*<input type="text" name="fname" id="fname" required></label>
-                        <label>Last name:*<input type="text" name="lname" id="lname" required></label>
-                        <label>Title:*<input type="text" name="title" id="title" required pattern="[a-zA-Z\s\-]{7,}" title="Please enter a valid title with a minimum of seven characters (only alphabets, hyphens, and spaces)."></label>
-                        <label> Email*<input type="email" id="email" name="email" placeholder="Input your gmail address" title="A valid gmail.com email address."  pattern="[a-zA-Z0-9_.\-]+@gmail.com" required></label>
-                        <label>Phone:*<input type="tel" name="phone" id="phone" required></label>
-  
-            </fieldset>            
-            <fieldset>
-                <legend>Business Information</legend>
-                <label>Business name:*<input type="text" name="businessname" id="businessname" required></label>
-                <label>Business description:<textarea name="bdescription" id="bdescription" ></textarea></label>
-                <label>
-                    Membership level *
-                    <select>
-                      <option selected disabled value="">Select Level ...</option>
-                      <option value="non-profit">Non-profit Membership (Free)</option>
-                      <option value="bronze">Bronze Membership ($200)</option>
-                      <option value="silver">Silver Membership ($400)</option>
-                      <option value="gold">Gold Membership ($1000)</option>
-                    </select>
-                  </label>
-                                
-            </fieldset>
-            <input type="hidden" id="formLoadTime" name="formLoadTime">
-  
-            <input type="submit" value="Add My Business">
+                                                <legend>Your Information</legend>
+                                                <label>First name:*<input type="text" name="fname" id="fname" required></label>
+                                                <label>Last name:*<input type="text" name="lname" id="lname" required></label>
+                                                <label>Title:*<input type="text" name="title" id="title" required pattern="[a-zA-Z\s\-]{7,}" title="Please enter a valid title with a minimum of seven characters (only alphabets, hyphens, and spaces)."></label>
+                                                <label> Email*<input type="email" id="email" name="email" placeholder="Input your gmail address" title="A valid gmail.com email address."  pattern="[a-zA-Z0-9_.\-]+@gmail.com" required></label>
+                                                <label>Phone:*<input type="tel" name="phone" id="phone" required></label>
+                        
+                                    </fieldset>            
+                                    <fieldset>
+                                        <legend>Business Information</legend>
+                                        <label>Business name:*<input type="text" name="businessname" id="businessname" required></label>
+                                        <label>Business description:<textarea name="bdescription" id="bdescription" ></textarea></label>
+                                        <label>
+                                            Membership level *
+                                            <select>
+                                            <option selected disabled value="">Select Level ...</option>
+                                            <option value="non-profit">Non-profit Membership (Free)</option>
+                                            <option value="bronze">Bronze Membership ($200)</option>
+                                            <option value="silver">Silver Membership ($400)</option>
+                                            <option value="gold">Gold Membership ($1000)</option>
+                                            </select>
+                                        </label>
+                                                        
+                                    </fieldset>
+                                    <input type="hidden" id="formLoadTime" name="formLoadTime">
+                        
+                                    <input type="submit" value="Add My Business">
             </form>
             <div id="benefits">
-                <h4>Membership Level Benefits *</h4>
-                <div id="info">
-                    <h5>Non-profits</h5>
-                    
-                        <p class="detail-levels">Directory Listing</p>
-                        <p class="detail-levels">Sponsorships</p>
-            
-                    <h5>Bronze</h5>
-                     <p class="detail-levels">Special Events</p>
-                      <p class="detail-levels">Trainings Opportunities</p>
-                                        <h5>Silver</h5>
-                    
-                      <p class="detail-levels">Spotlights</p>
-                      <p class="detail-levels">Event Discounts</p>
-                      <p class="detail-levels">Social Media Posts</p>
-                    
-                    <h5>Gold</h5>
-                    
-                      <p class="detail-levels">All Benefits from Silver Level</p>
-                      <p class="detail-levels">Additional advertising opportunities</p>
-                      <p class="detail-levels">Media Publication & Advertisements</p>
-                    
-                </div>
-            </div>
+                                <h4>Membership Level Benefits *</h4>
+                                <div id="info">
+                                    <h5>Non-profits</h5>
+                                    
+                                        <p class="detail-levels">Directory Listing</p>
+                                        <p class="detail-levels">Sponsorships</p>
+                            
+                                    <h5>Bronze</h5>
+                                    <p class="detail-levels">Special Events</p>
+                                    <p class="detail-levels">Trainings Opportunities</p>
+                                                        <h5>Silver</h5>
+                                    
+                                    <p class="detail-levels">Spotlights</p>
+                                    <p class="detail-levels">Event Discounts</p>
+                                    <p class="detail-levels">Social Media Posts</p>
+                                    
+                                    <h5>Gold</h5>
+                                    
+                                    <p class="detail-levels">All Benefits from Silver Level</p>
+                                    <p class="detail-levels">Additional advertising opportunities</p>
+                                    <p class="detail-levels">Media Publication & Advertisements</p>
+                                    
+                                </div>
+                            </div>
 
         </section>
         
@@ -182,8 +182,8 @@
             </div>
 
             <div class="col">
-                <h3>Links<!--<div class="underline"><span></span></div>--></h3>
-                <ul>
+                <h3 >Links<!--<div class="underline"><span></span></div>--></h3>
+                <ul class="ulfooter">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./discover.html">Discover</a></li>
                     <li><a href="./directory.html">Directory</a></li>

@@ -23,7 +23,7 @@
     nav{
       width: 20%;
     }
-    ul{
+    .menuopciones{
       top:135px;
     }
     /*ul{
@@ -166,7 +166,7 @@
   }
 
 /******************************************************************/
-.spotlight-container{
+/*.spotlight-container{
   display: grid;
   
 }
@@ -182,7 +182,7 @@
 
 .spotlight1 img, .spotlight2 img, .spotlight3 img{
   object-fit: contain;
-}
+}*/
 /*Discover*/
 .discover-container{
   display: grid;
@@ -190,8 +190,12 @@
   
 }
 
+
 .header-overlay:hover .overlay{
   opacity: 0;
+}
+.picture-catalog{
+  grid-column: 1/2;
 }
 
 /*******************************************************************/
@@ -201,18 +205,29 @@
 
 
 /* ----------------Join Us Page---------------- */
+
+
 #joinus-container{
-  display: grid;
+ display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
   padding: 0 2%;
   
 
 }
+.wf2 input[type="submit"]{
+  margin-bottom: 0.5rem;
 
+}
+#benefits{
+  width: 100%;
+  margin-top: 0.1rem;
+  height: 96%;
+}
 #benefits .detail-levels {
   padding-left: 1rem;
   margin-top: 0;
+  
 }
 
 /*directory*/
@@ -239,6 +254,12 @@
 
 
 }
+
+/*#businesses.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}*/
+
 #hbusinesses{
   grid-template-columns: 1fr;
   margin-left: 0.1rem;

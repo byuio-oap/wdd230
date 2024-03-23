@@ -79,6 +79,16 @@
       "website": "https://www.hermanoscopher.com/",
       "level": "Gold",
       "description": "New Car parts, certified services and maintainance"
+    },
+    {
+      "name": "Neta Informatica",
+      "logo": "neta.webp",
+      "address": "14 avenida 3-65 zona 3, Quetzaltenango, Guatemala",
+      "phone": "(502) 7810-8152",
+      "email": "ventas@netainfomatica.com",
+      "website": "https://netainformatica.com/",
+      "level": "Gold",
+      "description": "el EQUILIBIRO perfecto SI existe te AYUDAMOS en la compra de tecnología y RESOLVEMOS los problemas que tengas.SIEMPRE BUENAS PROMOS!!!"
     }
   ]
 }

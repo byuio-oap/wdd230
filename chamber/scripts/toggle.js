@@ -1,11 +1,4 @@
-// JavaScript for dark mode toggle
-//const toggleSwitch = document.getElementById("dark-mode-toggle");
-//const changeImageLarge=document.querySelector("changeImageL");
-//toggleSwitch.onclick=function(){
- //   document.body.classList.toggle("dark-theme")
-  //  changeImageLarge.src="images/large_footer_logo3_300x150.webp";
-//}
-        const darkModeToggle = document.getElementById('dark-mode-toggle');
+       const darkModeToggle = document.getElementById('dark-mode-toggle');
         const imageS = document.querySelector('.changeImageS');
         const imageM = document.querySelector('.changeImageM');
         const imageL = document.querySelector('.changeImageL');
@@ -28,25 +21,3 @@
 
 
 
-
-/*const currentTheme = localStorage.getItem('theme');
-
-if (currentTheme) {
-    document.documentElement.setAttribute('data-theme', currentTheme);
-    if (currentTheme === 'dark') {
-        toggleSwitch.checked = true;
-    }
-}
-
-function switchTheme(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-    } else {
-        document.documentElement.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light');
-    }    
-}
-
-toggleSwitch.addEventListener('change', switchTheme, false);
-*/
