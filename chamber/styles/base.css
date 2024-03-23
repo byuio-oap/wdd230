@@ -21,6 +21,9 @@
  --onlyMenuOptions-color:var(--darkblue);
  --onlyTextOptions-color:var(--black);
  --hoverOnMeunOption-color:var(--hover);
+
+ --menuactive-color:#541818;
+ 
 }
 .dark-mode{
   --onlybody-color:rgb(43, 41, 41);
@@ -28,6 +31,7 @@
   --onlyMenuOptions-color:var(--white);
   /*--hoverOnMeunOption-color:var(--button-color);*/
   --onlyTextOptions-color:var(--white);
+  --menuactive-color:yellow;
   
 }
 
@@ -98,6 +102,7 @@
   .login_button:hover {
     background:var(--white);
     color:var(--black);
+    border: 3px solid yellow;
   }
   /* Styles for dark mode toggle */
 .toggle-container {
@@ -220,7 +225,7 @@
       font-style: italic;
   }
   nav .menuopciones li a.active{
-  color:#541818;}
+  color:var(--menuactive-color);}
 
   .checkbtn{
       font-size: 40px;
@@ -331,9 +336,11 @@
 
 }
   .herolabel a:hover{
-    background-color:var(--white);
+    
+
+    background:var(--white);
     color:var(--black);
-    border: 2px solid var(--primary-color);
+    border: 3px solid yellow;
   }
 
 
@@ -531,12 +538,9 @@
   color: var(--secondary-color);
   padding: 15px;
   text-align: center;
-  
   align-items: center;
-  
-
-   
 }
+
 .slide-details h1 {
   
   font-size: 2rem;
@@ -561,8 +565,9 @@
 
 }
 .slide-details a:hover{
-  background-color: var(--white);
-  color: var(--black);
+  background:var(--white);
+    color:var(--black);
+    border: 3px solid yellow;
 }
 
 
@@ -1099,8 +1104,9 @@ gap: 0.3rem;
 
 }
 .wf2 input[type="submit"]:hover{
-  color: var(--white);
-  background-color: var(--darkblue);
+  background:var(--white);
+    color:var(--black);
+    border: 3px solid yellow;
 }
 
 .wf2 input:required{
