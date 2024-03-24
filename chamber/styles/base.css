@@ -223,8 +223,10 @@
       transition: .5s;
       font-size: larger;
       font-style: italic;
+      
   }
   nav .menuopciones li a.active{
+    font-weight: bold;
   color:var(--menuactive-color);}
 
   .checkbtn{
@@ -1220,9 +1222,11 @@ gap: 0.3rem;
   margin-left: 0.7rem;
   background-color: transparent;
   cursor: pointer;
+  
 }
-#menu-lg button img {
+#menu-lg button i {
   max-width: 100%;
+  color: var(--onlyMenuOptions-color);
 }
 
 
